@@ -156,4 +156,9 @@ body header .cards .cards-card .card-text p {
 body header .cards .cards-card .card-arrow {
   margin-left: 65px;
 }
+
+body header .cards .shadow {
+  -webkit-box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
+}
 /*# sourceMappingURL=style.css.map */
