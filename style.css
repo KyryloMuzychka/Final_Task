@@ -64,4 +64,94 @@ body header .bar .btn {
   font-weight: 700;
   color: #212529;
 }
+
+body header .welcome {
+  margin: 0 auto;
+}
+
+body header .welcome .welcome-text {
+  text-align: center;
+  margin-top: 100px;
+}
+
+body header .welcome .welcome-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+body header .welcome .welcome-text h2 u {
+  color: #FFB742;
+}
+
+body header .welcome .welcome-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+body header .welcome .welcome-text p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+
+body header .welcome .welcome-ava {
+  margin-top: 20px;
+}
+
+body header .welcome .welcome-ava img {
+  display: block;
+  margin: 0 auto;
+}
+
+body header .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 130px;
+}
+
+body header .cards .cards-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  background-color: rgba(56, 62, 69, 0.44);
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+body header .cards .cards-card .card-icon {
+  width: 64px;
+  height: 64px;
+}
+
+body header .cards .cards-card .card-text {
+  margin-left: 65px;
+}
+
+body header .cards .cards-card .card-text .number {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFB742;
+}
+
+body header .cards .cards-card .card-text p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+body header .cards .cards-card .card-arrow {
+  margin-left: 65px;
+}
 /*# sourceMappingURL=style.css.map */
