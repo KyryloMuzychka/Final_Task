@@ -284,12 +284,12 @@ body {
         }
 
         .works-cards {
-            margin-top: 30px;
+            margin-top: 50px;
             display: grid;
             grid-template-columns: 30% 30% 30%;
             grid-template-rows: auto;
-            column-gap: 10px;
-            row-gap: 90px;
+            column-gap: 30px;
+            row-gap: 30px;
         }
     }
 }
