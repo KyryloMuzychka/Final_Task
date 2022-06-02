@@ -7,7 +7,7 @@
     color: $color;
 }
 
-@mixin btn(){
+@mixin btn() {
     background-color: #FFB742;
     padding: 12px 26px;
     color: #212529;
@@ -107,7 +107,7 @@ body {
             display: flex;
             justify-content: center;
             margin-top: 130px;
-          
+
             .cards-card {
                 display: flex;
                 align-items: center;
@@ -115,7 +115,7 @@ body {
                 background-color: rgba(56, 62, 69, 0.44);
                 padding: 30px;
                 border-radius: 10px;
-                margin-right: 25px;            
+                margin-right: 25px;
 
                 .card-icon {
                     width: 64px;
@@ -139,44 +139,51 @@ body {
                     margin-left: 65px;
                 }
             }
+
             .shadow {
                 box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
             }
         }
     }
+
     .about_me {
         display: flex;
-				align-items: center;
+        align-items: center;
         margin-top: 135px;
 
         .about_me-photo {
             width: 620px;
-			height: 596.07px;
+            height: 596.07px;
         }
+
         .about_me-text {
-					margin-left: 50px;
+            margin-left: 50px;
+
             h3 {
                 @include text(20px, 600, #FFB742);
                 padding: 6px 25px;
-                background-color:  rgba(56, 62, 69, 0.44);
+                background-color: rgba(56, 62, 69, 0.44);
                 width: fit-content;
                 border-radius: 50px;
             }
+
             h2 {
                 font-family: 'Roboto', sans-serif;
                 @include text(48px, 700, #fff);
                 margin-top: 16.27px;
             }
+
             p {
                 @include text(16px, 400, #D4D4D4);
                 margin-top: 29.49px;
                 margin-bottom: 54.45px;
-								max-width: 672px;
+                max-width: 672px;
             }
+
             .btn {
                 @include btn();
             }
-					}
         }
-        
     }
+
+}
