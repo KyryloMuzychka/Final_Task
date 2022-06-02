@@ -150,6 +150,7 @@ body {
         .about_me-text {
             h3 {
                 @include text(20px, 600, #FFB742);
+								margin-top: 252.4px;
             }
             h2 {
                 font-family: 'Roboto', sans-serif;
