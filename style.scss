@@ -154,6 +154,7 @@ body {
 			height: 596.07px;
         }
         .about_me-text {
+					margin-left: 50px;
             h3 {
                 @include text(20px, 600, #FFB742);
                 padding: 6px 25px;
@@ -170,6 +171,7 @@ body {
                 @include text(16px, 400, #D4D4D4);
                 margin-top: 29.49px;
                 margin-bottom: 54.45px;
+								max-width: 672px;
             }
             .btn {
                 @include btn();
