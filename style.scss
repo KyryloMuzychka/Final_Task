@@ -7,7 +7,7 @@
     color: $color;
 }
 
-@mixin btn() {
+@mixin btn(){
     background-color: #FFB742;
     padding: 12px 26px;
     color: #212529;
@@ -146,7 +146,7 @@ body {
     }
     .about_me {
         display: flex;
-        align-items: center;
+				align-items: center;
         margin-top: 135px;
 
         .about_me-photo {
@@ -156,16 +156,20 @@ body {
         .about_me-text {
             h3 {
                 @include text(20px, 600, #FFB742);
+                margin-top: 252.4px;
             }
             h2 {
                 font-family: 'Roboto', sans-serif;
                 @include text(48px, 700, #fff);
+								margin-top: 16.27px;
             }
             p {
                 @include text(16px, 400, #D4D4D4);
+								margin-top: 29.49px;
             }
             .btn {
                 @include btn();
+								margin-top: 54.45px;
             }
         }
         
