@@ -220,4 +220,33 @@ body .about_me .about_me-text .btn {
   font-weight: 700;
   color: #212529;
 }
+
+body .skills .skills-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFB742;
+  padding: 6px 25px;
+  background-color: rgba(56, 62, 69, 0.44);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50px;
+}
+
+body .skills .skills-text h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 16.27px;
+}
+
+body .skills .skills-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #D4D4D4;
+  margin-top: 29.49px;
+  margin-bottom: 54.45px;
+  max-width: 672px;
+}
 /*# sourceMappingURL=style.css.map */
