@@ -313,6 +313,7 @@ body {
                 background-color: rgba(56, 62, 69, 0.44);
                 width: fit-content;
                 border-radius: 50px;
+								margin:0 auto;
             }
 
             h2 {
@@ -320,8 +321,18 @@ body {
                 @include text(48px, 700, #fff);
                 margin-top: 16.27px;
                 max-width: 520px;
+								margin:0 auto;
             }
 
         }
     }
+		.designer {
+			background-color: white;
+			width: 387.91px;
+			height: 443.55px;
+			border-radius: 7.9px;
+			.customer-stars {
+				margin-left: 33px;
+			}
+		}
 }

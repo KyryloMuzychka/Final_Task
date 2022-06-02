@@ -393,6 +393,7 @@ body .customer .customer-text h3 {
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 50px;
+  margin: 0 auto;
 }
 
 body .customer .customer-text h2 {
@@ -402,5 +403,17 @@ body .customer .customer-text h2 {
   color: #fff;
   margin-top: 16.27px;
   max-width: 520px;
+  margin: 0 auto;
+}
+
+body .designer {
+  background-color: white;
+  width: 387.91px;
+  height: 443.55px;
+  border-radius: 7.9px;
+}
+
+body .designer .customer-stars {
+  margin-left: 33px;
 }
 /*# sourceMappingURL=style.css.map */
