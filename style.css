@@ -320,6 +320,8 @@ body .works .works-text h3 {
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
 body .works .works-text h2 {
