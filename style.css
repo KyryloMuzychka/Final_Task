@@ -304,4 +304,66 @@ body .skills .skills-icons .figma {
 body .skills .skills-icons .sass {
   padding: 22px 16px;
 }
+
+body .works {
+  margin-top: 140px;
+  text-align: center;
+}
+
+body .works .works-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFB742;
+  padding: 6px 25px;
+  background-color: rgba(56, 62, 69, 0.44);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+body .works .works-text h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 16.27px;
+}
+
+body .works nav {
+  margin-top: 30px;
+}
+
+body .works nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .works nav ul li {
+  list-style-type: none;
+  row-gap: 25px;
+}
+
+body .works nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .works nav ul li .active {
+  padding: 5px 20px;
+  color: #212529;
+  background-color: #FFB742;
+  border-radius: 3px;
+}
 /*# sourceMappingURL=style.css.map */
