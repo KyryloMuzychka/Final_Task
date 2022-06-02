@@ -265,6 +265,12 @@ body .skills .skills-text .btn {
   color: #212529;
 }
 
+body .skills .skills-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 body .skills .skills-icons .skills-icons-icon {
   background-color: #383e45;
   padding: 16px;
@@ -274,11 +280,15 @@ body .skills .skills-icons .skills-icons-icon {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin: 10px;
+  margin: 16px;
   border-radius: 10px;
 }
 
 body .skills .skills-icons .figma {
   padding: 16px 24px;
+}
+
+body .skills .skills-icons .sass {
+  padding: 22px 16px;
 }
 /*# sourceMappingURL=style.css.map */
