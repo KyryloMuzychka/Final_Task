@@ -215,6 +215,20 @@ body {
 			}
 
 		}
+        .skills-icons {
+            .skills-icons-icon {
+                background-color: rgba(56, 62, 69, 1);
+                padding: 16px;
+                width: fit-content;
+                height: fit-content;
+                margin: 10px;
+                border-radius: 10px;
+            }
+            .figma {
+                padding: 16px 24px;
+            }
+        }
+       
 	}
 
 

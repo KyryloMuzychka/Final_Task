@@ -264,4 +264,21 @@ body .skills .skills-text .btn {
   font-weight: 700;
   color: #212529;
 }
+
+body .skills .skills-icons .skills-icons-icon {
+  background-color: #383e45;
+  padding: 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body .skills .skills-icons .figma {
+  padding: 16px 24px;
+}
 /*# sourceMappingURL=style.css.map */
