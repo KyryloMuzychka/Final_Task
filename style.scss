@@ -7,6 +7,15 @@
     color: $color;
 }
 
+@mixin btn(){
+    background-color: #FFB742;
+    padding: 12px 26px;
+    color: #212529;
+    text-decoration: none;
+    border-radius: 50px;
+    @include text(18px, 700, #212529);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -54,13 +63,7 @@ body {
             }
 
             .btn {
-                background-color: #FFB742;
-                padding: 12px 26px;
-                color: #212529;
-                text-decoration: none;
-                border-radius: 50px;
-                @include text(18px, 700, #212529);
-
+                @include btn();
             }
         }
 
