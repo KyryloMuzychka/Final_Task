@@ -166,6 +166,10 @@ body .about_me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 135px;
 }
 
 body .about_me .about_me-photo {
@@ -177,7 +181,6 @@ body .about_me .about_me-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
-  margin-top: 252.4px;
 }
 
 body .about_me .about_me-text h2 {
@@ -193,7 +196,7 @@ body .about_me .about_me-text p {
   color: #D4D4D4;
 }
 
-body .about_me .btn {
+body .about_me .about_me-text .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
