@@ -192,4 +192,15 @@ body .about_me .about_me-text p {
   font-weight: 400;
   color: #D4D4D4;
 }
+
+body .about_me .btn {
+  background-color: #FFB742;
+  padding: 12px 26px;
+  color: #212529;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #212529;
+}
 /*# sourceMappingURL=style.css.map */
