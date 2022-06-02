@@ -378,4 +378,29 @@ body .works .works-cards {
           column-gap: 30px;
   row-gap: 30px;
 }
+
+body .customer .customer-text {
+  text-align: center;
+}
+
+body .customer .customer-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFB742;
+  padding: 6px 25px;
+  background-color: rgba(56, 62, 69, 0.44);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50px;
+}
+
+body .customer .customer-text h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 16.27px;
+  max-width: 520px;
+}
 /*# sourceMappingURL=style.css.map */
