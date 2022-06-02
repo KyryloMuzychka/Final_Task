@@ -247,8 +247,9 @@ body {
     }
 
     .works {
-      margin-top: 140px;  
-      text-align: center;
+        margin-top: 140px;
+        text-align: center;
+
         .works-text {
             h3 {
                 @include text(20px, 600, #FFB742);
@@ -259,21 +260,26 @@ body {
                 margin: 0 auto;
                 border-radius: 50px;
             }
+
             h2 {
                 font-family: 'Roboto', sans-serif;
                 @include text(48px, 700, #fff);
                 margin-top: 16.27px;
             }
         }
+
         nav {
             margin-top: 30px;
+
             ul {
                 display: flex;
                 column-gap: 25px;
                 justify-content: center;
+
                 li {
                     list-style-type: none;
                     row-gap: 25px;
+
                     a {
                         text-decoration: none;
                         @include text(16px, 600, #fff);
@@ -291,8 +297,15 @@ body {
         }
 
         .works-cards {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: auto;
+            column-gap: 10px; 
+            row-gap: 90px;
+            .works-cards-card {
 
-            .works-cards-card {}
+            }
         }
     }
 

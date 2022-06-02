@@ -366,4 +366,17 @@ body .works nav ul li .active {
   background-color: #FFB742;
   border-radius: 3px;
 }
+
+body .works .works-cards {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 90px;
+}
 /*# sourceMappingURL=style.css.map */
