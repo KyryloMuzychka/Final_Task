@@ -156,20 +156,23 @@ body {
         .about_me-text {
             h3 {
                 @include text(20px, 600, #FFB742);
-                margin-top: 252.4px;
+                padding: 6px 25px;
+                background-color:  rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
             }
             h2 {
                 font-family: 'Roboto', sans-serif;
                 @include text(48px, 700, #fff);
-								margin-top: 16.27px;
+                margin-top: 16.27px;
             }
             p {
                 @include text(16px, 400, #D4D4D4);
-								margin-top: 29.49px;
+                margin-top: 29.49px;
             }
             .btn {
                 @include btn();
-								margin-top: 54.45px;
+                margin-top: 54.45px;
             }
         }
         
