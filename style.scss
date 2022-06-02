@@ -2,249 +2,294 @@
 
 
 @mixin text($font-size, $weight, $color) {
-	font-size: $font-size;
-	font-weight: $weight;
-	color: $color;
+    font-size: $font-size;
+    font-weight: $weight;
+    color: $color;
 }
 
 @mixin btn() {
-	background-color: #FFB742;
-	padding: 12px 26px;
-	color: #212529;
-	text-decoration: none;
-	border-radius: 50px;
-	@include text(18px, 700, #212529);
+    background-color: #FFB742;
+    padding: 12px 26px;
+    color: #212529;
+    text-decoration: none;
+    border-radius: 50px;
+    @include text(18px, 700, #212529);
 }
 
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-	font-family: 'Inter', sans-serif;
-	background: #212529;
-	padding: 20px 50px;
+    font-family: 'Inter', sans-serif;
+    background: #212529;
+    padding: 20px 50px;
 
-	header {
-		.bar {
-			font-family: 'Poppins', sans-serif;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
+    header {
+        .bar {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-			.logo {
-				width: 90px;
-				height: 65px;
-			}
+            .logo {
+                width: 90px;
+                height: 65px;
+            }
 
-			nav {
-				ul {
-					display: flex;
-					list-style: none;
+            nav {
+                ul {
+                    display: flex;
+                    list-style: none;
 
-					li {
-						margin-right: 25px;
+                    li {
+                        margin-right: 25px;
 
-						a {
-							text-decoration: none;
-							@include text(18px, 600, #fff);
-						}
+                        a {
+                            text-decoration: none;
+                            @include text(18px, 600, #fff);
+                        }
 
-						.active {
-							color: #FFB742;
-						}
-					}
+                        .active {
+                            color: #FFB742;
+                        }
+                    }
 
-					.li:last-child {
-						margin: 0;
-					}
-				}
-			}
+                    .li:last-child {
+                        margin: 0;
+                    }
+                }
+            }
 
-			.btn {
-				@include btn();
-			}
-		}
+            .btn {
+                @include btn();
+            }
+        }
 
-		.welcome {
-			margin: 0 auto;
+        .welcome {
+            margin: 0 auto;
 
-			.welcome-text {
-				text-align: center;
-				margin-top: 100px;
+            .welcome-text {
+                text-align: center;
+                margin-top: 100px;
 
-				h2 {
-					@include text(32px, 700, #fff);
+                h2 {
+                    @include text(32px, 700, #fff);
 
-					u {
-						color: #FFB742;
-					}
-				}
+                    u {
+                        color: #FFB742;
+                    }
+                }
 
-				h1 {
-					margin-top: 10px;
-					@include text(48px, 700, #fff);
-				}
+                h1 {
+                    margin-top: 10px;
+                    @include text(48px, 700, #fff);
+                }
 
-				p {
-					margin-top: 25px;
-					@include text(24px, 400, #fff);
-				}
-			}
+                p {
+                    margin-top: 25px;
+                    @include text(24px, 400, #fff);
+                }
+            }
 
-			.welcome-ava {
-				margin-top: 20px;
+            .welcome-ava {
+                margin-top: 20px;
 
-				img {
-					display: block;
-					margin: 0 auto;
-				}
-			}
-		}
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
 
-		.cards {
-			display: flex;
-			justify-content: center;
-			margin-top: 130px;
+        .cards {
+            display: flex;
+            justify-content: center;
+            margin-top: 130px;
 
-			.cards-card {
-				display: flex;
-				align-items: center;
-				width: auto;
-				background-color: rgba(56, 62, 69, 0.44);
-				padding: 30px;
-				border-radius: 10px;
-				margin-right: 25px;
+            .cards-card {
+                display: flex;
+                align-items: center;
+                width: auto;
+                background-color: rgba(56, 62, 69, 0.44);
+                padding: 30px;
+                border-radius: 10px;
+                margin-right: 25px;
 
-				.card-icon {
-					width: 64px;
-					height: 64px;
-				}
+                .card-icon {
+                    width: 64px;
+                    height: 64px;
+                }
 
-				.card-text {
-					margin-left: 65px;
+                .card-text {
+                    margin-left: 65px;
 
-					.number {
-						text-align: center;
-						@include text(32px, 700, #FFB742);
-					}
+                    .number {
+                        text-align: center;
+                        @include text(32px, 700, #FFB742);
+                    }
 
-					p {
-						@include text(16px, 700, #fff);
-					}
-				}
+                    p {
+                        @include text(16px, 700, #fff);
+                    }
+                }
 
-				.card-arrow {
-					margin-left: 65px;
-				}
-			}
+                .card-arrow {
+                    margin-left: 65px;
+                }
+            }
 
-			.shadow {
-				box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
-			}
-		}
-	}
+            .shadow {
+                box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
 
-	.about_me {
-		display: flex;
-		align-items: center;
-		margin-top: 135px;
+    .about_me {
+        display: flex;
+        align-items: center;
+        margin-top: 135px;
 
-		.about_me-photo {
-			width: 620px;
-			height: 596.07px;
-		}
+        .about_me-photo {
+            width: 620px;
+            height: 596.07px;
+        }
 
-		.about_me-text {
-			margin-left: 50px;
+        .about_me-text {
+            margin-left: 50px;
 
-			h3 {
-				@include text(20px, 600, #FFB742);
-				padding: 6px 25px;
-				background-color: rgba(56, 62, 69, 0.44);
-				width: fit-content;
-				border-radius: 50px;
-			}
+            h3 {
+                @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
+            }
 
-			h2 {
-				font-family: 'Roboto', sans-serif;
-				@include text(48px, 700, #fff);
-				margin-top: 16.27px;
-			}
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                margin-top: 16.27px;
+            }
 
-			p {
-				@include text(16px, 400, #D4D4D4);
-				margin-top: 29.49px;
-				margin-bottom: 54.45px;
-				max-width: 672px;
-			}
+            p {
+                @include text(16px, 400, #D4D4D4);
+                margin-top: 29.49px;
+                margin-bottom: 54.45px;
+                max-width: 672px;
+            }
 
-			.btn {
-				@include btn();
-			}
-		}
-	}
+            .btn {
+                @include btn();
+            }
+        }
+    }
 
-	.skills {
-		margin-top: 142.93px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+    .skills {
+        margin-top: 142.93px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-		.skills-text {
-			h3 {
-				@include text(20px, 600, #FFB742);
-				padding: 6px 25px;
-				background-color: rgba(56, 62, 69, 0.44);
-				width: fit-content;
-				border-radius: 50px;
-			}
+        .skills-text {
+            h3 {
+                @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
+            }
 
-			h2 {
-				font-family: 'Roboto', sans-serif;
-				@include text(48px, 700, #fff);
-				margin-top: 16.27px;
-				max-width: 520px;
-			}
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                margin-top: 16.27px;
+                max-width: 520px;
+            }
 
-			p {
-				@include text(16px, 400, #D4D4D4);
-				margin-top: 29.49px;
-				margin-bottom: 66.45px;
-				max-width: 650px;
-			}
+            p {
+                @include text(16px, 400, #D4D4D4);
+                margin-top: 29.49px;
+                margin-bottom: 66.45px;
+                max-width: 650px;
+            }
 
-			.btn {
-				@include btn();
-			}
+            .btn {
+                @include btn();
+            }
 
-		}
+        }
 
-		.skills-icons {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 16px;
-			max-width: 570px;
+        .skills-icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            max-width: 570px;
 
-			.skills-icons-icon {
-				background-color: rgba(56, 62, 69, 1);
-				padding: 16px;
-				width: fit-content;
-				height: fit-content;
-				border-radius: 10px;
-			}
+            .skills-icons-icon {
+                background-color: rgba(56, 62, 69, 1);
+                padding: 16px;
+                width: fit-content;
+                height: fit-content;
+                border-radius: 10px;
+            }
 
-			.figma {
-				padding: 16px 24px;
-			}
+            .figma {
+                padding: 16px 24px;
+            }
 
-			.sass {
-				padding: 22px 16px;
-			}
-		}
+            .sass {
+                padding: 22px 16px;
+            }
+        }
 
-	}
+    }
+
+    .works {
+        margin-top: 140px;
+        text-align: center;
+
+        .works-text {
+            h3 {
+                @include text(20px, 600, #FFB742);
+            }
 
 
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                margin-top: 16.27px;
+            }
+        }
+
+        nav {
+            margin-top: 30px;
+
+            ul {
+                display: flex;
+                column-gap: 25px;
+                justify-content: center;
+
+                li {
+                    list-style-type: none;
+                    row-gap: 25px;
+
+                    a {
+                        text-decoration: none;
+                        @include text(16px, 600, #fff);
+                    }
+                }
+            }
+        }
+
+        .works-cards {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: auto;
+            column-gap: 10px;
+            row-gap: 90px;
+        }
+    }
 }
