@@ -145,10 +145,18 @@ body {
         display: flex;
         .about_me-photo {
             width: 620px;
-						height: 596.07px;
+			height: 596.07px;
         }
         .about_me-text {
-
+            h3 {
+                @include text(18px, 600, #fff);
+            }
+            h2 {
+                @include text(18px, 600, #fff);
+            }
+            p {
+                @include text(18px, 600, #fff);
+            }
         }
     }
 }
