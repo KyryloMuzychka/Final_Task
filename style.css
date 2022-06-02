@@ -223,6 +223,15 @@ body .about_me .about_me-text .btn {
 
 body .skills {
   margin-top: 142.93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body .skills .skills-text h3 {
@@ -243,6 +252,7 @@ body .skills .skills-text h2 {
   font-weight: 700;
   color: #fff;
   margin-top: 16.27px;
+  max-width: 520px;
 }
 
 body .skills .skills-text p {
@@ -251,7 +261,7 @@ body .skills .skills-text p {
   color: #D4D4D4;
   margin-top: 29.49px;
   margin-bottom: 66.45px;
-  max-width: 672px;
+  max-width: 650px;
 }
 
 body .skills .skills-text .btn {
@@ -269,6 +279,10 @@ body .skills .skills-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+  max-width: 570px;
 }
 
 body .skills .skills-icons .skills-icons-icon {
@@ -280,7 +294,6 @@ body .skills .skills-icons .skills-icons-icon {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin: 16px;
   border-radius: 10px;
 }
 
