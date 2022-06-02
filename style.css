@@ -314,6 +314,12 @@ body .works .works-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
+  padding: 6px 25px;
+  background-color: rgba(56, 62, 69, 0.44);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50px;
 }
 
 body .works .works-text h2 {

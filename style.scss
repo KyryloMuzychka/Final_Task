@@ -253,8 +253,11 @@ body {
         .works-text {
             h3 {
                 @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
             }
-
 
             h2 {
                 font-family: 'Roboto', sans-serif;
