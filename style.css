@@ -4,13 +4,13 @@
   margin: 0;
 }
 
-body {
+* body {
   font-family: 'Inter', sans-serif;
   background: #212529;
   padding: 20px 50px;
 }
 
-body header .bar {
+* body header .bar {
   font-family: 'Poppins', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,38 +23,38 @@ body header .bar {
           align-items: center;
 }
 
-body header .bar .logo {
+* body header .bar .logo {
   width: 90px;
   height: 65px;
 }
 
-body header .bar nav ul {
+* body header .bar nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-body header .bar nav ul li {
+* body header .bar nav ul li {
   margin-right: 25px;
 }
 
-body header .bar nav ul li a {
+* body header .bar nav ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
   color: #fff;
 }
 
-body header .bar nav ul li .active {
+* body header .bar nav ul li .active {
   color: #FFB742;
 }
 
-body header .bar nav ul .li:last-child {
+* body header .bar nav ul .li:last-child {
   margin: 0;
 }
 
-body header .bar .btn {
+* body header .bar .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -65,49 +65,49 @@ body header .bar .btn {
   color: #212529;
 }
 
-body header .welcome {
+* body header .welcome {
   margin: 0 auto;
 }
 
-body header .welcome .welcome-text {
+* body header .welcome .welcome-text {
   text-align: center;
   margin-top: 100px;
 }
 
-body header .welcome .welcome-text h2 {
+* body header .welcome .welcome-text h2 {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
 }
 
-body header .welcome .welcome-text h2 u {
+* body header .welcome .welcome-text h2 u {
   color: #FFB742;
 }
 
-body header .welcome .welcome-text h1 {
+* body header .welcome .welcome-text h1 {
   margin-top: 10px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
 
-body header .welcome .welcome-text p {
+* body header .welcome .welcome-text p {
   margin-top: 25px;
   font-size: 24px;
   font-weight: 400;
   color: #fff;
 }
 
-body header .welcome .welcome-ava {
+* body header .welcome .welcome-ava {
   margin-top: 20px;
 }
 
-body header .welcome .welcome-ava img {
+* body header .welcome .welcome-ava img {
   display: block;
   margin: 0 auto;
 }
 
-body header .cards {
+* body header .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@ body header .cards {
   margin-top: 130px;
 }
 
-body header .cards .cards-card {
+* body header .cards .cards-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,38 +131,38 @@ body header .cards .cards-card {
   margin-right: 25px;
 }
 
-body header .cards .cards-card .card-icon {
+* body header .cards .cards-card .card-icon {
   width: 64px;
   height: 64px;
 }
 
-body header .cards .cards-card .card-text {
+* body header .cards .cards-card .card-text {
   margin-left: 65px;
 }
 
-body header .cards .cards-card .card-text .number {
+* body header .cards .cards-card .card-text .number {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
   color: #FFB742;
 }
 
-body header .cards .cards-card .card-text p {
+* body header .cards .cards-card .card-text p {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
 }
 
-body header .cards .cards-card .card-arrow {
+* body header .cards .cards-card .card-arrow {
   margin-left: 65px;
 }
 
-body header .cards .shadow {
+* body header .cards .shadow {
   -webkit-box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
 }
 
-body .about_me {
+* body .about_me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,16 +172,16 @@ body .about_me {
   margin-top: 135px;
 }
 
-body .about_me .about_me-photo {
+* body .about_me .about_me-photo {
   width: 620px;
   height: 596.07px;
 }
 
-body .about_me .about_me-text {
+* body .about_me .about_me-text {
   margin-left: 50px;
 }
 
-body .about_me .about_me-text h3 {
+* body .about_me .about_me-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -193,7 +193,7 @@ body .about_me .about_me-text h3 {
   border-radius: 50px;
 }
 
-body .about_me .about_me-text h2 {
+* body .about_me .about_me-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -201,7 +201,7 @@ body .about_me .about_me-text h2 {
   margin-top: 16.27px;
 }
 
-body .about_me .about_me-text p {
+* body .about_me .about_me-text p {
   font-size: 16px;
   font-weight: 400;
   color: #D4D4D4;
@@ -210,7 +210,7 @@ body .about_me .about_me-text p {
   max-width: 672px;
 }
 
-body .about_me .about_me-text .btn {
+* body .about_me .about_me-text .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
