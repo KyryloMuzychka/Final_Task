@@ -162,6 +162,10 @@ body {
             p {
                 @include text(16px, 400, #D4D4D4);
             }
+            .btn {
+                @include btn();
+            }
         }
+        
     }
 }
