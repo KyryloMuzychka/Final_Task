@@ -149,13 +149,13 @@ body {
         }
         .about_me-text {
             h3 {
-                @include text(18px, 600, #fff);
+                @include text(20px, 600, #FFB742);
             }
             h2 {
-                @include text(18px, 600, #fff);
+                @include text(48px, 700, #fff);
             }
             p {
-                @include text(18px, 600, #fff);
+                @include text(16px, 400, #D4D4D4);
             }
         }
     }
