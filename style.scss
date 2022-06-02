@@ -158,6 +158,7 @@ body {
             h2 {
                 font-family: 'Roboto', sans-serif;
                 @include text(48px, 700, #fff);
+								margin-top: 16.27px;
             }
             p {
                 @include text(16px, 400, #D4D4D4);
