@@ -611,6 +611,7 @@ body footer .container {
 
 body footer .container .wrapper {
   padding-top: 150px;
+  padding-bottom: 90px;
 }
 
 body footer .container .wrapper .links {
@@ -623,6 +624,7 @@ body footer .container .wrapper .links {
 
 body footer .container .wrapper .links .links-name {
   margin-left: 50px;
+  line-height: 32px;
 }
 
 body footer .container .wrapper .links .links-name h2 {
@@ -698,8 +700,9 @@ body footer .container .wrapper .links .links-news p {
   font-size: 18px;
   font-weight: 500;
   color: #7B7B7B;
-  width: 319px;
+  max-width: 319px;
   margin-top: 8px;
+  line-height: 36px;
 }
 
 body footer .container .wrapper .links .links-news .links-news-email p {
