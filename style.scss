@@ -512,14 +512,55 @@ body {
 
                 height: 470;
                 width: auto;
+								display: flex;
 
-                .links-name {}
+                .links-name {
+									h2 {
+										@include text(32px, 700, #FFB742);
+										font-family: 'Poppins', sans-serif;
+									}
+									p {
+										@include text(16px, 600, #d4d4d4);
+										font-family: 'Work Sans', sans-serif;
+										width: 253px;
+									}
+								}
 
-                .links-usefull {}
+                .links-usefull {
+									h3 {
+										@include text(22px, 700, #F5fbf2);
+										font-family: 'Work Sans', sans-serif;
+									}
+									ul {
+										@include text(18px, 500, #7B7B7B);
+										font-family: 'Work Sans', sans-serif;
+										font-style: normal;
+									}
+								}
 
-                .links-social {}
+                .links-social {
+									h3 {
+										@include text(22px, 700, #F5fbf2);
+										font-family: 'Work Sans', sans-serif;
+									}
+									ul {
+										@include text(18px, 500, #7B7B7B);
+										font-family: 'Work Sans', sans-serif;
+										font-style: normal;
+									}
+								}
 
                 .links-news {
+									h3 {
+										@include text(22px, 700, #F5fbf2);
+										font-family: 'Work Sans', sans-serif;
+									}
+									p {
+										@include text(18px, 500, #7B7B7B);
+										font-family: 'Work Sans', sans-serif;
+										font-style: normal;
+										width: 319px;
+									}
                     .links-news-email {}
                 }
             }

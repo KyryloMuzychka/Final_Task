@@ -585,5 +585,69 @@ body footer .container {
 body footer .container .links {
   height: 470;
   width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .container .links .links-name h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFB742;
+  font-family: 'Poppins', sans-serif;
+}
+
+body footer .container .links .links-name p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #d4d4d4;
+  font-family: 'Work Sans', sans-serif;
+  width: 253px;
+}
+
+body footer .container .links .links-usefull h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #F5fbf2;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body footer .container .links .links-usefull ul {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7B7B7B;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+}
+
+body footer .container .links .links-social h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #F5fbf2;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body footer .container .links .links-social ul {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7B7B7B;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+}
+
+body footer .container .links .links-news h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #F5fbf2;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body footer .container .links .links-news p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7B7B7B;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  width: 319px;
 }
 /*# sourceMappingURL=style.css.map */
