@@ -533,4 +533,10 @@ body .project .project-text-text a {
   margin-top: 60px;
   text-decoration: none;
 }
+
+body .links {
+  background-color: #1c1c1c;
+  height: 470;
+  width: auto;
+}
 /*# sourceMappingURL=style.css.map */
