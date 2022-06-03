@@ -532,13 +532,12 @@ body {
                 padding-bottom: 90px;
 
                 .links {
-
                     height: 470;
                     width: auto;
                     display: flex;
+                    justify-content: space-around;
 
                     .links-name {
-                        margin-left: 50px;
                         line-height: 32px;
 
                         h2 {
@@ -555,8 +554,6 @@ body {
                     }
 
                     .links-usefull {
-                        margin-left: 139px;
-
                         h3 {
                             @include text(22px, 700, #F5fbf2);
 
@@ -575,8 +572,6 @@ body {
                     }
 
                     .links-social {
-                        margin-left: 201px;
-
                         h3 {
                             @include text(22px, 700, #F5fbf2);
 
@@ -595,8 +590,6 @@ body {
                     }
 
                     .links-news {
-                        margin-left: 157px;
-
                         h3 {
                             @include text(22px, 700, #F5fbf2);
                         }
@@ -608,15 +601,32 @@ body {
                             line-height: 36px;
                         }
 
-                        .links-news-email {
-                            p {
-                                background-color: #212529;
-                                width: 310px;
-                                height: 63px;
-                                border-radius: 49px;
-                                margin-top: 31px;
-                                @include text(16px, 400, #7c7c7c);
-                                text-align: center;
+                        form {
+                            .links-news-email {
+                                display: flex;
+                                flex-wrap: nowrap;
+                                margin-top: 30px;
+
+                                .links-news-email-write {
+                                    background-color: #212529;
+                                    border-radius: 49px;
+                                    @include text(16px, 400, #7c7c7c);
+                                    border: none;
+                                    outline: none;
+                                    padding: 20px 0px 20px 25px;
+                                    width: 310px;
+                                }
+
+                                .links-news-email-send {
+                                    height: 63px;
+                                    width: 63px;
+                                    border: none;
+                                    outline: none;
+                                    background: url(img/send.svg) no-repeat 50% 50%;
+                                    background-color: #FFB742;
+                                    border-radius: 100%;
+                                    margin-left: -63px;
+                                }
                             }
                         }
                     }

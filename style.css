@@ -620,10 +620,11 @@ body footer .container .wrapper .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body footer .container .wrapper .links .links-name {
-  margin-left: 50px;
   line-height: 32px;
 }
 
@@ -640,10 +641,6 @@ body footer .container .wrapper .links .links-name p {
   color: #d4d4d4;
   width: 253px;
   margin-top: 31px;
-}
-
-body footer .container .wrapper .links .links-usefull {
-  margin-left: 139px;
 }
 
 body footer .container .wrapper .links .links-usefull h3 {
@@ -664,10 +661,6 @@ body footer .container .wrapper .links .links-usefull ul li {
   list-style-type: none;
 }
 
-body footer .container .wrapper .links .links-social {
-  margin-left: 201px;
-}
-
 body footer .container .wrapper .links .links-social h3 {
   font-size: 22px;
   font-weight: 700;
@@ -686,10 +679,6 @@ body footer .container .wrapper .links .links-social ul li {
   list-style-type: none;
 }
 
-body footer .container .wrapper .links .links-news {
-  margin-left: 157px;
-}
-
 body footer .container .wrapper .links .links-news h3 {
   font-size: 22px;
   font-weight: 700;
@@ -705,15 +694,35 @@ body footer .container .wrapper .links .links-news p {
   line-height: 36px;
 }
 
-body footer .container .wrapper .links .links-news .links-news-email p {
+body footer .container .wrapper .links .links-news form .links-news-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 30px;
+}
+
+body footer .container .wrapper .links .links-news form .links-news-email .links-news-email-write {
   background-color: #212529;
-  width: 310px;
-  height: 63px;
   border-radius: 49px;
-  margin-top: 31px;
   font-size: 16px;
   font-weight: 400;
   color: #7c7c7c;
-  text-align: center;
+  border: none;
+  outline: none;
+  padding: 20px 0px 20px 25px;
+  width: 310px;
+}
+
+body footer .container .wrapper .links .links-news form .links-news-email .links-news-email-send {
+  height: 63px;
+  width: 63px;
+  border: none;
+  outline: none;
+  background: url(img/send.svg) no-repeat 50% 50%;
+  background-color: #FFB742;
+  border-radius: 100%;
+  margin-left: -63px;
 }
 /*# sourceMappingURL=style.css.map */
