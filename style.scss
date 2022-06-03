@@ -295,16 +295,16 @@ body {
             }
         }
 
-        .works-cards {      
+        .works-cards {
             margin-top: 50px;
             column-count: 3;
 
             .works-cards-card {
-              width: 100%;
-              margin-bottom: 30px;
+                width: 100%;
+                margin-bottom: 30px;
             }
 
-            .works-cards-card:nth-child(2n){
+            .works-cards-card:nth-child(2n) {
                 margin: 0;
             }
         }
@@ -312,6 +312,16 @@ body {
 
     .customer {
         margin-top: 140px;
+
+        .customer-stars {
+            display: flex;
+            margin-right: 9px;
+        }
+
+        .customer-stars:last-child {
+            margin: 0;
+        }
+
         .customer-text {
             text-align: center;
 

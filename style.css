@@ -385,6 +385,17 @@ body .customer {
   margin-top: 140px;
 }
 
+body .customer .customer-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 9px;
+}
+
+body .customer .customer-stars:last-child {
+  margin: 0;
+}
+
 body .customer .customer-text {
   text-align: center;
 }
