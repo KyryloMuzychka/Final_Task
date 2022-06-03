@@ -24,7 +24,7 @@
 body {
 	font-family: 'Inter', sans-serif;
 	background: #212529;
-  padding: 20px 50px;
+	padding: 20px 50px;
 
 	header {
 		.bar {
@@ -358,17 +358,20 @@ body {
 						font-size: 20px;
 					}
 				}
+
 				.customers-cards-card-avatar {
 					margin-top: 36px;
 				}
+
 				.customer-text-text {
 					font-family: 'Poppins', sans-serif;
 					margin-left: 128px;
 					margin-bottom: 54.5px;
+
 					h3 {
 						@include text(20px, 700, #000000);
 					}
-					
+
 					h4 {
 						@include text(16px, 400, #000000);
 					}
@@ -386,30 +389,36 @@ body {
 		margin: auto;
 
 		.project-text {
-			font-family: 'Inter', sans-serif;
-			font-style: normal;
-			font-size: 35px;
-			font-weight: 900;
-			line-height: 53px;
-			position: absolute;
-			margin-top: 57px;
-			margin-left: 94px;
+			h2 {
+				font-family: 'Inter', sans-serif;
+				font-style: normal;
+				font-size: 35px;
+				font-weight: 900;
+				line-height: 53px;
+				position: absolute;
+				margin-top: 57px;
+				margin-left: 94px;
+			}
 		}
 
 		.project-text1 {
-			font-family: 'Roboto', sans-serif;
-			font-style: normal;
-			font-size: 18px;
-			line-height: 30px;
-			font-weight: 500;
-			width: 359px;
-			position: absolute;
-			margin-left: 417px;
-			margin-top: 57px;
+			p {
+				font-family: 'Roboto', sans-serif;
+				font-style: normal;
+				font-size: 18px;
+				line-height: 30px;
+				font-weight: 500;
+				width: 359px;
+				position: absolute;
+				margin-left: 417px;
+				margin-top: 57px;
+				text-align: center;
+			}
 		}
 
-			.project-text-text {
-				border: 2px solid;
+		.project-text-text {
+			a {
+				border: 2px #000000 solid;
 				border-radius: 50px;
 				padding: 12px 40px;
 				font-family: 'Roboto', sans-serif;
@@ -418,6 +427,8 @@ body {
 				position: absolute;
 				margin-left: 845px;
 				margin-top: 60px;
+				text-decoration: none;
 			}
 		}
 	}
+}

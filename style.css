@@ -462,7 +462,7 @@ body .project {
   margin: auto;
 }
 
-body .project .project-text {
+body .project .project-text h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 35px;
@@ -473,7 +473,7 @@ body .project .project-text {
   margin-left: 94px;
 }
 
-body .project .project-text1 {
+body .project .project-text1 p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -483,10 +483,11 @@ body .project .project-text1 {
   position: absolute;
   margin-left: 417px;
   margin-top: 57px;
+  text-align: center;
 }
 
-body .project .project-text-text {
-  border: 2px solid;
+body .project .project-text-text a {
+  border: 2px #000000 solid;
   border-radius: 50px;
   padding: 12px 40px;
   font-family: 'Roboto', sans-serif;
@@ -497,5 +498,6 @@ body .project .project-text-text {
   position: absolute;
   margin-left: 845px;
   margin-top: 60px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
