@@ -660,6 +660,11 @@ body footer .container .wrapper .links .links-usefull ul {
   margin-top: 13px;
 }
 
+body footer .container .wrapper .links .links-usefull ul li {
+  margin-top: 15px;
+  list-style-type: none;
+}
+
 body footer .container .wrapper .links .links-social {
   margin-left: 201px;
 }
@@ -678,6 +683,11 @@ body footer .container .wrapper .links .links-social ul {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   margin-top: 17px;
+}
+
+body footer .container .wrapper .links .links-social ul li {
+  margin-top: 15px;
+  list-style-type: none;
 }
 
 body footer .container .wrapper .links .links-news {
