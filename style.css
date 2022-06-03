@@ -540,4 +540,8 @@ body .links {
   height: 470;
   width: auto;
 }
+
+body .links .links-name h2 {
+  font-family: 'Poppins', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
