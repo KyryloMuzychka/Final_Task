@@ -29,10 +29,9 @@
 body {
     font-family: 'Inter', sans-serif;
     background: #212529;
-    padding: 20px 50px;
-
 
     header {
+
         .container {
             @include container();
 
@@ -158,13 +157,15 @@ body {
     }
 
     .about-me-section {
+        margin-top: 135px;
+
         .container {
             @include container();
 
             .about_me {
                 display: flex;
                 align-items: center;
-                margin-top: 135px;
+
 
                 .about_me-photo {
                     width: 620px;
@@ -204,11 +205,13 @@ body {
     }
 
     .skills-section {
+        margin-top: 142.93px;
+
         .container {
             @include container();
 
             .skills {
-                margin-top: 142.93px;
+
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -270,11 +273,13 @@ body {
     }
 
     .works-section {
+        margin-top: 140px;
+
         .container {
             @include container();
 
             .works {
-                margin-top: 140px;
+
                 text-align: center;
 
                 .works-text {
@@ -341,11 +346,13 @@ body {
     }
 
     .customer-section {
+        margin-top: 140px;
+
         .container {
             @include container();
 
             .customer {
-                margin-top: 140px;
+
 
                 .customer-text {
                     display: block;
@@ -435,70 +442,87 @@ body {
 
     }
 
-    .project {
-        background-color: #FFB742;
-        width: 1116px;
-        height: 174px;
-        border-radius: 15px;
-        margin: auto;
+    .project-section {
+        margin-top: 115px;
 
-        .project-text {
-            h2 {
-                font-family: 'Inter', sans-serif;
-                font-style: normal;
-                font-size: 35px;
-                font-weight: 900;
-                line-height: 53px;
-                position: absolute;
-                margin-top: 57px;
-                margin-left: 94px;
-            }
-        }
+        .container {
+            @include container();
 
-        .project-text1 {
-            p {
-                font-family: 'Roboto', sans-serif;
-                font-style: normal;
-                font-size: 18px;
-                line-height: 30px;
-                font-weight: 500;
-                width: 359px;
-                position: absolute;
-                margin-left: 417px;
-                margin-top: 57px;
-                text-align: center;
-            }
-        }
+            .project {
+                background-color: #FFB742;
+                width: 1116px;
+                height: 174px;
+                border-radius: 15px;
+                margin: auto;
 
-        .project-text-text {
-            a {
-                border: 2px #000000 solid;
-                border-radius: 50px;
-                padding: 12px 40px;
-                font-family: 'Roboto', sans-serif;
-                @include text(18px, 500, #212529);
-                line-height: 30px;
-                position: absolute;
-                margin-left: 845px;
-                margin-top: 60px;
-                text-decoration: none;
+                .project-text {
+                    h2 {
+                        font-family: 'Inter', sans-serif;
+                        font-style: normal;
+                        font-size: 35px;
+                        font-weight: 900;
+                        line-height: 53px;
+                        position: absolute;
+                        margin-top: 57px;
+                        margin-left: 94px;
+                    }
+                }
+
+                .project-text1 {
+                    p {
+                        font-family: 'Roboto', sans-serif;
+                        font-style: normal;
+                        font-size: 18px;
+                        line-height: 30px;
+                        font-weight: 500;
+                        width: 359px;
+                        position: absolute;
+                        margin-left: 417px;
+                        margin-top: 57px;
+                        text-align: center;
+                    }
+                }
+
+                .project-text-text {
+                    a {
+                        border: 2px #000000 solid;
+                        border-radius: 50px;
+                        padding: 12px 40px;
+                        font-family: 'Roboto', sans-serif;
+                        @include text(18px, 500, #212529);
+                        line-height: 30px;
+                        position: absolute;
+                        margin-left: 845px;
+                        margin-top: 60px;
+                        text-decoration: none;
+                    }
+                }
             }
         }
     }
-}
 
-.links {
-    background-color: #1c1c1c;
-    height: 470;
-    width: auto;
+    footer {
+        margin-top: -87px;
+        background: #1c1c1c;
 
-    .links-name {}
+        .container {
+            @include container();
 
-    .links-usefull {}
+            .links {
 
-    .links-social {}
+                height: 470;
+                width: auto;
 
-    .links-news {
-        .links-news-email {}
+                .links-name {}
+
+                .links-usefull {}
+
+                .links-social {}
+
+                .links-news {
+                    .links-news-email {}
+                }
+            }
+        }
     }
 }

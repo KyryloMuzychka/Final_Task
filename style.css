@@ -7,7 +7,6 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #212529;
-  padding: 20px 50px;
 }
 
 body header .container {
@@ -167,6 +166,10 @@ body header .container .cards .shadow {
           box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
 }
 
+body .about-me-section {
+  margin-top: 135px;
+}
+
 body .about-me-section .container {
   width: 1440px;
   margin: 0 auto;
@@ -179,7 +182,6 @@ body .about-me-section .container .about_me {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 135px;
 }
 
 body .about-me-section .container .about_me .about_me-photo {
@@ -231,13 +233,16 @@ body .about-me-section .container .about_me .about_me-text .btn {
   color: #212529;
 }
 
+body .skills-section {
+  margin-top: 142.93px;
+}
+
 body .skills-section .container {
   width: 1440px;
   margin: 0 auto;
 }
 
 body .skills-section .container .skills {
-  margin-top: 142.93px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,13 +325,16 @@ body .skills-section .container .skills .skills-icons .sass {
   padding: 22px 16px;
 }
 
+body .works-section {
+  margin-top: 140px;
+}
+
 body .works-section .container {
   width: 1440px;
   margin: 0 auto;
 }
 
 body .works-section .container .works {
-  margin-top: 140px;
   text-align: center;
 }
 
@@ -401,13 +409,13 @@ body .works-section .container .works .works-cards .works-cards-card:nth-child(2
   margin: 0;
 }
 
+body .customer-section {
+  margin-top: 140px;
+}
+
 body .customer-section .container {
   width: 1440px;
   margin: 0 auto;
-}
-
-body .customer-section .container .customer {
-  margin-top: 140px;
 }
 
 body .customer-section .container .customer .customer-text {
@@ -508,7 +516,16 @@ body .customer-section .container .customer .customer-cards .customers-cards-car
   margin: 0;
 }
 
-body .project {
+body .project-section {
+  margin-top: 115px;
+}
+
+body .project-section .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body .project-section .container .project {
   background-color: #FFB742;
   width: 1116px;
   height: 174px;
@@ -516,7 +533,7 @@ body .project {
   margin: auto;
 }
 
-body .project .project-text h2 {
+body .project-section .container .project .project-text h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 35px;
@@ -527,7 +544,7 @@ body .project .project-text h2 {
   margin-left: 94px;
 }
 
-body .project .project-text1 p {
+body .project-section .container .project .project-text1 p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -540,7 +557,7 @@ body .project .project-text1 p {
   text-align: center;
 }
 
-body .project .project-text-text a {
+body .project-section .container .project .project-text-text a {
   border: 2px #000000 solid;
   border-radius: 50px;
   padding: 12px 40px;
@@ -555,8 +572,17 @@ body .project .project-text-text a {
   text-decoration: none;
 }
 
-.links {
-  background-color: #1c1c1c;
+body footer {
+  margin-top: -87px;
+  background: #1c1c1c;
+}
+
+body footer .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body footer .container .links {
   height: 470;
   width: auto;
 }
