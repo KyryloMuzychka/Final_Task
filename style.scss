@@ -222,10 +222,10 @@ body {
         }
 
         .skills-icons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            max-width: 570px;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px 80px 80px;
+            column-gap: 16px;
+            row-gap: 16px;
 
             .skills-icons-icon {
                 background-color: rgba(56, 62, 69, 1);
@@ -295,13 +295,14 @@ body {
             }
         }
 
-        .works-cards {
+        .works-cards {      
             margin-top: 50px;
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
-            grid-template-rows: auto;
-            column-gap: 30px;
-            row-gap: 30px;
+            column-count: 3;
+
+            .works-cards-card {
+              width: 100%;
+              margin-bottom: 30px;
+            }
         }
     }
 

@@ -276,13 +276,13 @@ body .skills .skills-text .btn {
 }
 
 body .skills .skills-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 16px;
-  max-width: 570px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80px 80px 80px 80px 80px 80px;
+      grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  row-gap: 16px;
 }
 
 body .skills .skills-icons .skills-icons-icon {
@@ -368,15 +368,13 @@ body .works nav ul li .active {
 
 body .works .works-cards {
   margin-top: 50px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 30% 30% 30%;
-      grid-template-columns: 30% 30% 30%;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
-  row-gap: 30px;
+  -webkit-column-count: 3;
+          column-count: 3;
+}
+
+body .works .works-cards .works-cards-card {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 body .customer .customer-text {
