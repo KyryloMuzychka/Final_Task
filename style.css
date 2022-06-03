@@ -385,6 +385,11 @@ body .customer {
   margin-top: 140px;
 }
 
+body .customer .customer-text {
+  display: block;
+  text-align: center;
+}
+
 body .customer .customer-text h3 {
   font-size: 20px;
   font-weight: 600;

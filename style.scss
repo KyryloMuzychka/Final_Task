@@ -313,13 +313,15 @@ body {
 	.customer {
         margin-top: 140px;
 		.customer-text {
+            display: block;
+            text-align: center;
 			h3 {
 				@include text(20px, 600, #FFB742);
 				padding: 6px 25px;
 				background-color: rgba(56, 62, 69, 0.44);
 				width: fit-content;
 				border-radius: 50px;
-				margin: 0 auto;
+                margin: 0 auto;
 			}
 
 			h2 {
@@ -327,8 +329,7 @@ body {
 				@include text(48px, 700, #fff);
 				margin-top: 16.27px;
 				max-width: 520px;
-				margin: 0 auto;
-
+                margin: 0 auto;
 			}
 		}
         .customer-cards {
