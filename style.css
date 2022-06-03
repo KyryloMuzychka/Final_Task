@@ -377,14 +377,6 @@ body .works .works-cards .works-cards-card {
   margin-bottom: 30px;
 }
 
-body .works .works-cards .works-cards-card:nth-child(2n) {
-  margin: 0;
-}
-
-body .customer {
-  margin-top: 140px;
-}
-
 body .customer .customer-text {
   text-align: center;
 }
@@ -412,14 +404,14 @@ body .customer .customer-text h2 {
   margin: 0 auto;
 }
 
-body .designer {
+body .customer .designer {
   background-color: white;
   width: 387.91px;
   height: 443.55px;
   border-radius: 7.9px;
 }
 
-body .designer .customer-stars {
+body .customer .designer .customer-stars {
   margin-left: 33px;
 }
 /*# sourceMappingURL=style.css.map */
