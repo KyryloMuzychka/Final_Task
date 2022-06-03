@@ -412,6 +412,8 @@ body .works-section .container .works .works-cards .works-cards-card:nth-child(2
 
 body .customer-section {
   margin-top: 140px;
+  position: relative;
+  z-index: 1;
 }
 
 body .customer-section .container {
@@ -546,6 +548,8 @@ body .customer-section .container .customer .customer-navigation .customer-navig
 
 body .project-section {
   margin-top: 115px;
+  position: relative;
+  z-index: 2;
 }
 
 body .project-section .container {
@@ -559,29 +563,27 @@ body .project-section .container .project {
   height: 174px;
   border-radius: 15px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .project-section .container .project .project-text h2 {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-size: 35px;
   font-weight: 900;
-  line-height: 53px;
-  position: absolute;
-  margin-top: 57px;
-  margin-left: 94px;
 }
 
 body .project-section .container .project .project-text1 p {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-size: 18px;
-  line-height: 30px;
   font-weight: 500;
-  width: 359px;
-  position: absolute;
-  margin-left: 417px;
-  margin-top: 57px;
+  max-width: 359px;
   text-align: center;
 }
 
@@ -593,10 +595,6 @@ body .project-section .container .project .project-text-text a {
   font-size: 18px;
   font-weight: 500;
   color: #212529;
-  line-height: 30px;
-  position: absolute;
-  margin-left: 845px;
-  margin-top: 60px;
   text-decoration: none;
 }
 
@@ -610,7 +608,11 @@ body footer .container {
   margin: 0 auto;
 }
 
-body footer .container .links {
+body footer .container .wrapper {
+  padding-top: 150px;
+}
+
+body footer .container .wrapper .links {
   height: 470;
   width: auto;
   display: -webkit-box;
@@ -618,18 +620,18 @@ body footer .container .links {
   display: flex;
 }
 
-body footer .container .links .links-name {
+body footer .container .wrapper .links .links-name {
   margin-left: 50px;
 }
 
-body footer .container .links .links-name h2 {
+body footer .container .wrapper .links .links-name h2 {
   font-size: 32px;
   font-weight: 700;
   color: #FFB742;
   font-family: 'Poppins', sans-serif;
 }
 
-body footer .container .links .links-name p {
+body footer .container .wrapper .links .links-name p {
   font-size: 16px;
   font-weight: 600;
   color: #d4d4d4;
@@ -638,18 +640,18 @@ body footer .container .links .links-name p {
   margin-top: 31px;
 }
 
-body footer .container .links .links-usefull {
+body footer .container .wrapper .links .links-usefull {
   margin-left: 139px;
 }
 
-body footer .container .links .links-usefull h3 {
+body footer .container .wrapper .links .links-usefull h3 {
   font-size: 22px;
   font-weight: 700;
   color: #F5fbf2;
   font-family: 'Work Sans', sans-serif;
 }
 
-body footer .container .links .links-usefull ul {
+body footer .container .wrapper .links .links-usefull ul {
   font-size: 18px;
   font-weight: 500;
   color: #7B7B7B;
@@ -658,18 +660,18 @@ body footer .container .links .links-usefull ul {
   margin-top: 13px;
 }
 
-body footer .container .links .links-social {
+body footer .container .wrapper .links .links-social {
   margin-left: 201px;
 }
 
-body footer .container .links .links-social h3 {
+body footer .container .wrapper .links .links-social h3 {
   font-size: 22px;
   font-weight: 700;
   color: #F5fbf2;
   font-family: 'Work Sans', sans-serif;
 }
 
-body footer .container .links .links-social ul {
+body footer .container .wrapper .links .links-social ul {
   font-size: 18px;
   font-weight: 500;
   color: #7B7B7B;
@@ -678,18 +680,18 @@ body footer .container .links .links-social ul {
   margin-top: 17px;
 }
 
-body footer .container .links .links-news {
+body footer .container .wrapper .links .links-news {
   margin-left: 157px;
 }
 
-body footer .container .links .links-news h3 {
+body footer .container .wrapper .links .links-news h3 {
   font-size: 22px;
   font-weight: 700;
   color: #F5fbf2;
   font-family: 'Work Sans', sans-serif;
 }
 
-body footer .container .links .links-news p {
+body footer .container .wrapper .links .links-news p {
   font-size: 18px;
   font-weight: 500;
   color: #7B7B7B;
@@ -699,7 +701,7 @@ body footer .container .links .links-news p {
   margin-top: 8px;
 }
 
-body footer .container .links .links-news .links-news-email p {
+body footer .container .wrapper .links .links-news .links-news-email p {
   background-color: #212529;
   width: 310px;
   height: 63px;

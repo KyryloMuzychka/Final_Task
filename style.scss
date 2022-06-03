@@ -35,6 +35,7 @@ body {
         .container {
             @include container();
             margin-top: 25px;
+
             .bar {
                 font-family: 'Poppins', sans-serif;
                 display: flex;
@@ -347,6 +348,8 @@ body {
 
     .customer-section {
         margin-top: 140px;
+        position: relative;
+        z-index: 1;
 
         .container {
             @include container();
@@ -435,20 +438,23 @@ body {
                         margin: 0;
                     }
 
-                
+
                 }
+
                 .customer-navigation {
                     display: flex;
                     justify-content: center;
                     margin-top: 65px;
-                    .customer-navigation-current{
+
+                    .customer-navigation-current {
                         display: block;
                         width: 50px;
                         height: 10px;
                         background-color: rgba(255, 183, 66, 1);
                         border-radius: 50px;
                     }
-                    .customer-navigation-next{
+
+                    .customer-navigation-next {
                         display: block;
                         width: 20px;
                         height: 10px;
@@ -465,6 +471,8 @@ body {
 
     .project-section {
         margin-top: 115px;
+        position: relative;
+        z-index: 2;
 
         .container {
             @include container();
@@ -475,31 +483,24 @@ body {
                 height: 174px;
                 border-radius: 15px;
                 margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
 
                 .project-text {
                     h2 {
                         font-family: 'Inter', sans-serif;
-                        font-style: normal;
                         font-size: 35px;
                         font-weight: 900;
-                        line-height: 53px;
-                        position: absolute;
-                        margin-top: 57px;
-                        margin-left: 94px;
                     }
                 }
 
                 .project-text1 {
                     p {
                         font-family: 'Roboto', sans-serif;
-                        font-style: normal;
                         font-size: 18px;
-                        line-height: 30px;
                         font-weight: 500;
-                        width: 359px;
-                        position: absolute;
-                        margin-left: 417px;
-                        margin-top: 57px;
+                        max-width: 359px;
                         text-align: center;
                     }
                 }
@@ -511,10 +512,6 @@ body {
                         padding: 12px 40px;
                         font-family: 'Roboto', sans-serif;
                         @include text(18px, 500, #212529);
-                        line-height: 30px;
-                        position: absolute;
-                        margin-left: 845px;
-                        margin-top: 60px;
                         text-decoration: none;
                     }
                 }
@@ -523,96 +520,101 @@ body {
     }
 
     footer {
-			margin-top: -87px;
-			background: #1c1c1c;
-		
-			.container {
-				@include container();
-		
-				.links {
-		
-					height: 470;
-					width: auto;
-					display: flex;
-		
-					.links-name {
-						margin-left: 50px;
-		
-						h2 {
-							@include text(32px, 700, #FFB742);
-							font-family: 'Poppins', sans-serif;
-						}
-		
-						p {
-							@include text(16px, 600, #d4d4d4);
-							font-family: 'Work Sans', sans-serif;
-							width: 253px;
-							margin-top: 31px;
-						}
-					}
-		
-					.links-usefull {
-						margin-left: 139px;
-		
-						h3 {
-							@include text(22px, 700, #F5fbf2);
-							font-family: 'Work Sans', sans-serif;
-						}
-		
-						ul {
-							@include text(18px, 500, #7B7B7B);
-							font-family: 'Work Sans', sans-serif;
-							font-style: normal;
-							margin-top: 13px;
-						}
-					}
-		
-					.links-social {
-						margin-left: 201px;
-		
-						h3 {
-							@include text(22px, 700, #F5fbf2);
-							font-family: 'Work Sans', sans-serif;
-						}
-		
-						ul {
-							@include text(18px, 500, #7B7B7B);
-							font-family: 'Work Sans', sans-serif;
-							font-style: normal;
-							margin-top: 17px;
-						}
-					}
-		
-					.links-news {
-						margin-left: 157px;
-		
-						h3 {
-							@include text(22px, 700, #F5fbf2);
-							font-family: 'Work Sans', sans-serif;
-						}
-		
-						p {
-							@include text(18px, 500, #7B7B7B);
-							font-family: 'Work Sans', sans-serif;
-							font-style: normal;
-							width: 319px;
-							margin-top: 8px;
-						}
-		
-						.links-news-email {
-							p {
-								background-color: #212529;
-								width: 310px;
-								height: 63px;
-								border-radius: 49px;
-								margin-top: 31px;
-								@include text(16px, 400, #7c7c7c);
-								font-family: 'Work Sans', sans-serif;
-								text-align: center;
-							}
-						}
-					}
-				}
-			}
-		}
+        margin-top: -87px;
+        background: #1c1c1c;
+
+        .container {
+            @include container();
+
+            .wrapper {
+                padding-top: 150px;
+
+                .links {
+
+                    height: 470;
+                    width: auto;
+                    display: flex;
+
+                    .links-name {
+                        margin-left: 50px;
+
+                        h2 {
+                            @include text(32px, 700, #FFB742);
+                            font-family: 'Poppins', sans-serif;
+                        }
+
+                        p {
+                            @include text(16px, 600, #d4d4d4);
+                            font-family: 'Work Sans', sans-serif;
+                            width: 253px;
+                            margin-top: 31px;
+                        }
+                    }
+
+                    .links-usefull {
+                        margin-left: 139px;
+
+                        h3 {
+                            @include text(22px, 700, #F5fbf2);
+                            font-family: 'Work Sans', sans-serif;
+                        }
+
+                        ul {
+                            @include text(18px, 500, #7B7B7B);
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            margin-top: 13px;
+                        }
+                    }
+
+                    .links-social {
+                        margin-left: 201px;
+
+                        h3 {
+                            @include text(22px, 700, #F5fbf2);
+                            font-family: 'Work Sans', sans-serif;
+                        }
+
+                        ul {
+                            @include text(18px, 500, #7B7B7B);
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            margin-top: 17px;
+                        }
+                    }
+
+                    .links-news {
+                        margin-left: 157px;
+
+                        h3 {
+                            @include text(22px, 700, #F5fbf2);
+                            font-family: 'Work Sans', sans-serif;
+                        }
+
+                        p {
+                            @include text(18px, 500, #7B7B7B);
+                            font-family: 'Work Sans', sans-serif;
+                            font-style: normal;
+                            width: 319px;
+                            margin-top: 8px;
+                        }
+
+                        .links-news-email {
+                            p {
+                                background-color: #212529;
+                                width: 310px;
+                                height: 63px;
+                                border-radius: 49px;
+                                margin-top: 31px;
+                                @include text(16px, 400, #7c7c7c);
+                                font-family: 'Work Sans', sans-serif;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
 }
