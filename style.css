@@ -457,36 +457,36 @@ body .customer-section .container .customer .customer-cards {
   margin-top: 88px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card {
+body .customer-section .container .customer .customer-cards .customer-cards-card {
   background-color: white;
   width: 378.91px;
   border-radius: 7.9px;
   margin-right: 40px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper {
   padding: 50px 52px 48px 33px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars img {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-stars img {
   margin-right: 9px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars .last {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-stars .last {
   margin: 0;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-text {
   margin-top: 21px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text p {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-text p {
   max-width: 295px;
   max-height: 204px;
   font-size: 20px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-person {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,25 +496,52 @@ body .customer-section .container .customer .customer-cards .customers-cards-car
   margin-top: 36px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-person .customer-cards-card-wrapper-person-text {
   font-family: 'Poppins', sans-serif;
   margin-left: 24px;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h3 {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-person .customer-cards-card-wrapper-person-text h3 {
   font-size: 20px;
   font-weight: 700;
   color: #000000;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h4 {
+body .customer-section .container .customer .customer-cards .customer-cards-card .customer-cards-card-wrapper .customer-cards-card-wrapper-person .customer-cards-card-wrapper-person-text h4 {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
 }
 
-body .customer-section .container .customer .customer-cards .customers-cards-card:last-child {
+body .customer-section .container .customer .customer-cards .customer-cards-card:last-child {
   margin: 0;
+}
+
+body .customer-section .container .customer .customer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 65px;
+}
+
+body .customer-section .container .customer .customer-navigation .customer-navigation-current {
+  display: block;
+  width: 50px;
+  height: 10px;
+  background-color: #ffb742;
+  border-radius: 50px;
+}
+
+body .customer-section .container .customer .customer-navigation .customer-navigation-next {
+  display: block;
+  width: 20px;
+  height: 10px;
+  background-color: #bb842c;
+  margin-left: 7px;
+  border-radius: 50px;
 }
 
 body .project-section {

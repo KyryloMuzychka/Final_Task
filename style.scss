@@ -381,16 +381,16 @@ body {
                     justify-content: center;
                     margin-top: 88px;
 
-                    .customers-cards-card {
+                    .customer-cards-card {
                         background-color: white;
                         width: 378.91px;
                         border-radius: 7.9px;
                         margin-right: 40px;
 
-                        .customers-cards-card-wrapper {
+                        .customer-cards-card-wrapper {
                             padding: 50px 52px 48px 33px;
 
-                            .customers-cards-card-wrapper-stars {
+                            .customer-cards-card-wrapper-stars {
                                 img {
                                     margin-right: 9px;
                                 }
@@ -400,7 +400,7 @@ body {
                                 }
                             }
 
-                            .customers-cards-card-wrapper-text {
+                            .customer-cards-card-wrapper-text {
                                 margin-top: 21px;
 
                                 p {
@@ -410,12 +410,12 @@ body {
                                 }
                             }
 
-                            .customers-cards-card-wrapper-person {
+                            .customer-cards-card-wrapper-person {
                                 display: flex;
                                 align-items: center;
                                 margin-top: 36px;
 
-                                .customers-cards-card-wrapper-person-text {
+                                .customer-cards-card-wrapper-person-text {
                                     font-family: 'Poppins', sans-serif;
                                     margin-left: 24px;
 
@@ -431,11 +431,32 @@ body {
                         }
                     }
 
-                    .customers-cards-card:last-child {
+                    .customer-cards-card:last-child {
                         margin: 0;
                     }
-                }
 
+                
+                }
+                .customer-navigation {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 65px;
+                    .customer-navigation-current{
+                        display: block;
+                        width: 50px;
+                        height: 10px;
+                        background-color: rgba(255, 183, 66, 1);
+                        border-radius: 50px;
+                    }
+                    .customer-navigation-next{
+                        display: block;
+                        width: 20px;
+                        height: 10px;
+                        background-color: rgba(187, 132, 44, 1);
+                        margin-left: 7px;
+                        border-radius: 50px;
+                    }
+                }
             }
         }
 
