@@ -17,7 +17,7 @@
 }
 
 @mixin container() {
-    width: 1440px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ body {
 
         .container {
             @include container();
-
+            margin-top: 25px;
             .bar {
                 font-family: 'Poppins', sans-serif;
                 display: flex;
@@ -450,7 +450,7 @@ body {
 
             .project {
                 background-color: #FFB742;
-                width: 1116px;
+                width: 90%;
                 height: 174px;
                 border-radius: 15px;
                 margin: auto;
