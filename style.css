@@ -377,6 +377,14 @@ body .works .works-cards .works-cards-card {
   margin-bottom: 30px;
 }
 
+body .works .works-cards .works-cards-card:nth-child(2n) {
+  margin: 0;
+}
+
+body .customer {
+  margin-top: 140px;
+}
+
 body .customer .customer-text {
   text-align: center;
 }

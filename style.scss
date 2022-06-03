@@ -303,10 +303,15 @@ body {
 				width: 100%;
 				margin-bottom: 30px;
 			}
+            .works-cards-card:nth-child(2n){
+                margin: 0;
+            }
+            
 		}
 	}
 
 	.customer {
+        margin-top: 140px;
 		.customer-text {
 			text-align: center;
 
