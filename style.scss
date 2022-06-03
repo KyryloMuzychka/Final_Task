@@ -339,19 +339,38 @@ body {
 		.customer-cards {
 			.customers-cards-card {
 				background-color: white;
-				width: 387.91px;
+				width: 378.91px;
 				height: 443.55px;
 				border-radius: 7.9px;
-				padding: 50px 33px;
+				padding: 33px 50px;
+
 
 				.customers-cards-card-stars {
 
-					//margin-left: 33px;
+					margin-left: 33px;
 				}
 
 				.customers-cards-card-text {
 					p {
 						max-width: 295px;
+						max-height: 204px;
+						margin-top: 21px;
+						font-size: 20px;
+					}
+				}
+				.customers-cards-card-avatar {
+					margin-top: 36px;
+				}
+				.customer-text-text {
+					font-family: 'Poppins', sans-serif;
+					margin-left: 128px;
+					margin-bottom: 54.5px;
+					h3 {
+						@include text(20px, 700, #000000);
+					}
+					
+					h4 {
+						@include text(16px, 400, #000000);
 					}
 				}
 			}

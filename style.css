@@ -415,14 +415,43 @@ body .customer .customer-text h2 {
 
 body .customer .customer-cards .customers-cards-card {
   background-color: white;
-  width: 387.91px;
+  width: 378.91px;
   height: 443.55px;
   border-radius: 7.9px;
-  padding: 50px 33px;
+  padding: 33px 50px;
+}
+
+body .customer .customer-cards .customers-cards-card .customers-cards-card-stars {
+  margin-left: 33px;
 }
 
 body .customer .customer-cards .customers-cards-card .customers-cards-card-text p {
   max-width: 295px;
+  max-height: 204px;
+  margin-top: 21px;
+  font-size: 20px;
+}
+
+body .customer .customer-cards .customers-cards-card .customers-cards-card-avatar {
+  margin-top: 36px;
+}
+
+body .customer .customer-cards .customers-cards-card .customer-text-text {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 128px;
+  margin-bottom: 54.5px;
+}
+
+body .customer .customer-cards .customers-cards-card .customer-text-text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+body .customer .customer-cards .customers-cards-card .customer-text-text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
 }
 
 body .project {
