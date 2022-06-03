@@ -4,17 +4,18 @@
   margin: 0;
 }
 
-.container {
+body {
+  font-family: 'Inter', sans-serif;
+  background: #212529;
+  padding: 20px 50px;
+}
+
+body .container {
   width: 1440px;
   margin: 0 auto;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background: #212529;
-}
-
-body header .bar {
+body .container header .bar {
   font-family: 'Poppins', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,38 +28,38 @@ body header .bar {
           align-items: center;
 }
 
-body header .bar .logo {
+body .container header .bar .logo {
   width: 90px;
   height: 65px;
 }
 
-body header .bar nav ul {
+body .container header .bar nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-body header .bar nav ul li {
+body .container header .bar nav ul li {
   margin-right: 25px;
 }
 
-body header .bar nav ul li a {
+body .container header .bar nav ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
   color: #fff;
 }
 
-body header .bar nav ul li .active {
+body .container header .bar nav ul li .active {
   color: #FFB742;
 }
 
-body header .bar nav ul .li:last-child {
+body .container header .bar nav ul .li:last-child {
   margin: 0;
 }
 
-body header .bar .btn {
+body .container header .bar .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -69,49 +70,49 @@ body header .bar .btn {
   color: #212529;
 }
 
-body header .welcome {
+body .container header .welcome {
   margin: 0 auto;
 }
 
-body header .welcome .welcome-text {
+body .container header .welcome .welcome-text {
   text-align: center;
   margin-top: 100px;
 }
 
-body header .welcome .welcome-text h2 {
+body .container header .welcome .welcome-text h2 {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
 }
 
-body header .welcome .welcome-text h2 u {
+body .container header .welcome .welcome-text h2 u {
   color: #FFB742;
 }
 
-body header .welcome .welcome-text h1 {
+body .container header .welcome .welcome-text h1 {
   margin-top: 10px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
 
-body header .welcome .welcome-text p {
+body .container header .welcome .welcome-text p {
   margin-top: 25px;
   font-size: 24px;
   font-weight: 400;
   color: #fff;
 }
 
-body header .welcome .welcome-ava {
+body .container header .welcome .welcome-ava {
   margin-top: 20px;
 }
 
-body header .welcome .welcome-ava img {
+body .container header .welcome .welcome-ava img {
   display: block;
   margin: 0 auto;
 }
 
-body header .cards {
+body .container header .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +122,7 @@ body header .cards {
   margin-top: 130px;
 }
 
-body header .cards .cards-card {
+body .container header .cards .cards-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,38 +136,38 @@ body header .cards .cards-card {
   margin-right: 25px;
 }
 
-body header .cards .cards-card .card-icon {
+body .container header .cards .cards-card .card-icon {
   width: 64px;
   height: 64px;
 }
 
-body header .cards .cards-card .card-text {
+body .container header .cards .cards-card .card-text {
   margin-left: 65px;
 }
 
-body header .cards .cards-card .card-text .number {
+body .container header .cards .cards-card .card-text .number {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
   color: #FFB742;
 }
 
-body header .cards .cards-card .card-text p {
+body .container header .cards .cards-card .card-text p {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
 }
 
-body header .cards .cards-card .card-arrow {
+body .container header .cards .cards-card .card-arrow {
   margin-left: 65px;
 }
 
-body header .cards .shadow {
+body .container header .cards .shadow {
   -webkit-box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
 }
 
-body .about_me {
+body .container .about_me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,16 +177,16 @@ body .about_me {
   margin-top: 135px;
 }
 
-body .about_me .about_me-photo {
+body .container .about_me .about_me-photo {
   width: 620px;
   height: 596.07px;
 }
 
-body .about_me .about_me-text {
+body .container .about_me .about_me-text {
   margin-left: 50px;
 }
 
-body .about_me .about_me-text h3 {
+body .container .about_me .about_me-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -197,7 +198,7 @@ body .about_me .about_me-text h3 {
   border-radius: 50px;
 }
 
-body .about_me .about_me-text h2 {
+body .container .about_me .about_me-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -205,7 +206,7 @@ body .about_me .about_me-text h2 {
   margin-top: 16.27px;
 }
 
-body .about_me .about_me-text p {
+body .container .about_me .about_me-text p {
   font-size: 16px;
   font-weight: 400;
   color: #D4D4D4;
@@ -214,7 +215,7 @@ body .about_me .about_me-text p {
   max-width: 672px;
 }
 
-body .about_me .about_me-text .btn {
+body .container .about_me .about_me-text .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -225,7 +226,7 @@ body .about_me .about_me-text .btn {
   color: #212529;
 }
 
-body .skills {
+body .container .skills {
   margin-top: 142.93px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,7 +239,7 @@ body .skills {
           justify-content: space-between;
 }
 
-body .skills .skills-text h3 {
+body .container .skills .skills-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -250,7 +251,7 @@ body .skills .skills-text h3 {
   border-radius: 50px;
 }
 
-body .skills .skills-text h2 {
+body .container .skills .skills-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -259,7 +260,7 @@ body .skills .skills-text h2 {
   max-width: 520px;
 }
 
-body .skills .skills-text p {
+body .container .skills .skills-text p {
   font-size: 16px;
   font-weight: 400;
   color: #D4D4D4;
@@ -268,7 +269,7 @@ body .skills .skills-text p {
   max-width: 650px;
 }
 
-body .skills .skills-text .btn {
+body .container .skills .skills-text .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -279,7 +280,7 @@ body .skills .skills-text .btn {
   color: #212529;
 }
 
-body .skills .skills-icons {
+body .container .skills .skills-icons {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 80px 80px 80px 80px 80px 80px;
@@ -289,7 +290,7 @@ body .skills .skills-icons {
   row-gap: 16px;
 }
 
-body .skills .skills-icons .skills-icons-icon {
+body .container .skills .skills-icons .skills-icons-icon {
   background-color: #383e45;
   padding: 16px;
   width: -webkit-fit-content;
@@ -301,20 +302,20 @@ body .skills .skills-icons .skills-icons-icon {
   border-radius: 10px;
 }
 
-body .skills .skills-icons .figma {
+body .container .skills .skills-icons .figma {
   padding: 16px 24px;
 }
 
-body .skills .skills-icons .sass {
+body .container .skills .skills-icons .sass {
   padding: 22px 16px;
 }
 
-body .works {
+body .container .works {
   margin-top: 140px;
   text-align: center;
 }
 
-body .works .works-text h3 {
+body .container .works .works-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -328,7 +329,7 @@ body .works .works-text h3 {
   margin: 0 auto;
 }
 
-body .works .works-text h2 {
+body .container .works .works-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -336,11 +337,11 @@ body .works .works-text h2 {
   margin-top: 16.27px;
 }
 
-body .works nav {
+body .container .works nav {
   margin-top: 30px;
 }
 
-body .works nav ul {
+body .container .works nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,50 +352,50 @@ body .works nav ul {
           justify-content: center;
 }
 
-body .works nav ul li {
+body .container .works nav ul li {
   list-style-type: none;
   row-gap: 25px;
 }
 
-body .works nav ul li a {
+body .container .works nav ul li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
 }
 
-body .works nav ul li .active {
+body .container .works nav ul li .active {
   background-color: #FFB742;
   color: #212529;
   padding: 5px 20px;
   border-radius: 3px;
 }
 
-body .works .works-cards {
+body .container .works .works-cards {
   margin-top: 50px;
   -webkit-column-count: 3;
           column-count: 3;
 }
 
-body .works .works-cards .works-cards-card {
+body .container .works .works-cards .works-cards-card {
   width: 100%;
   margin-bottom: 30px;
 }
 
-body .works .works-cards .works-cards-card:nth-child(2n) {
+body .container .works .works-cards .works-cards-card:nth-child(2n) {
   margin: 0;
 }
 
-body .customer {
+body .container .customer {
   margin-top: 140px;
 }
 
-body .customer .customer-text {
+body .container .customer .customer-text {
   display: block;
   text-align: center;
 }
 
-body .customer .customer-text h3 {
+body .container .customer .customer-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -407,7 +408,7 @@ body .customer .customer-text h3 {
   margin: 0 auto;
 }
 
-body .customer .customer-text h2 {
+body .container .customer .customer-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -417,7 +418,7 @@ body .customer .customer-text h2 {
   margin-top: 7px;
 }
 
-body .customer .customer-cards {
+body .container .customer .customer-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,36 +428,36 @@ body .customer .customer-cards {
   margin-top: 88px;
 }
 
-body .customer .customer-cards .customers-cards-card {
+body .container .customer .customer-cards .customers-cards-card {
   background-color: white;
   width: 378.91px;
   border-radius: 7.9px;
   margin-right: 40px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper {
   padding: 50px 52px 48px 33px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars img {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars img {
   margin-right: 9px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars .last {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars .last {
   margin: 0;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text {
   margin-top: 21px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text p {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text p {
   max-width: 295px;
   max-height: 204px;
   font-size: 20px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,28 +467,28 @@ body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapp
   margin-top: 36px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text {
   font-family: 'Poppins', sans-serif;
   margin-left: 24px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h3 {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h3 {
   font-size: 20px;
   font-weight: 700;
   color: #000000;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h4 {
+body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h4 {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
 }
 
-body .customer .customer-cards .customers-cards-card:last-child {
+body .container .customer .customer-cards .customers-cards-card:last-child {
   margin: 0;
 }
 
-body .project {
+body .container .project {
   background-color: #FFB742;
   width: 1116px;
   height: 174px;
@@ -495,7 +496,7 @@ body .project {
   margin: auto;
 }
 
-body .project .project-text h2 {
+body .container .project .project-text h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 35px;
@@ -506,7 +507,7 @@ body .project .project-text h2 {
   margin-left: 94px;
 }
 
-body .project .project-text1 p {
+body .container .project .project-text1 p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -519,7 +520,7 @@ body .project .project-text1 p {
   text-align: center;
 }
 
-body .project .project-text-text a {
+body .container .project .project-text-text a {
   border: 2px #000000 solid;
   border-radius: 50px;
   padding: 12px 40px;
