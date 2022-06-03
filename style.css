@@ -7,15 +7,14 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #212529;
-  padding: 20px 50px;
 }
 
-body .container {
+body header .container {
   width: 1440px;
   margin: 0 auto;
 }
 
-body .container header .bar {
+body header .container .bar {
   font-family: 'Poppins', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,38 +27,38 @@ body .container header .bar {
           align-items: center;
 }
 
-body .container header .bar .logo {
+body header .container .bar .logo {
   width: 90px;
   height: 65px;
 }
 
-body .container header .bar nav ul {
+body header .container .bar nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-body .container header .bar nav ul li {
+body header .container .bar nav ul li {
   margin-right: 25px;
 }
 
-body .container header .bar nav ul li a {
+body header .container .bar nav ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
   color: #fff;
 }
 
-body .container header .bar nav ul li .active {
+body header .container .bar nav ul li .active {
   color: #FFB742;
 }
 
-body .container header .bar nav ul .li:last-child {
+body header .container .bar nav ul .li:last-child {
   margin: 0;
 }
 
-body .container header .bar .btn {
+body header .container .bar .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -70,49 +69,49 @@ body .container header .bar .btn {
   color: #212529;
 }
 
-body .container header .welcome {
+body header .container .welcome {
   margin: 0 auto;
 }
 
-body .container header .welcome .welcome-text {
+body header .container .welcome .welcome-text {
   text-align: center;
   margin-top: 100px;
 }
 
-body .container header .welcome .welcome-text h2 {
+body header .container .welcome .welcome-text h2 {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
 }
 
-body .container header .welcome .welcome-text h2 u {
+body header .container .welcome .welcome-text h2 u {
   color: #FFB742;
 }
 
-body .container header .welcome .welcome-text h1 {
+body header .container .welcome .welcome-text h1 {
   margin-top: 10px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
 
-body .container header .welcome .welcome-text p {
+body header .container .welcome .welcome-text p {
   margin-top: 25px;
   font-size: 24px;
   font-weight: 400;
   color: #fff;
 }
 
-body .container header .welcome .welcome-ava {
+body header .container .welcome .welcome-ava {
   margin-top: 20px;
 }
 
-body .container header .welcome .welcome-ava img {
+body header .container .welcome .welcome-ava img {
   display: block;
   margin: 0 auto;
 }
 
-body .container header .cards {
+body header .container .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,7 +121,7 @@ body .container header .cards {
   margin-top: 130px;
 }
 
-body .container header .cards .cards-card {
+body header .container .cards .cards-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,57 +135,65 @@ body .container header .cards .cards-card {
   margin-right: 25px;
 }
 
-body .container header .cards .cards-card .card-icon {
+body header .container .cards .cards-card .card-icon {
   width: 64px;
   height: 64px;
 }
 
-body .container header .cards .cards-card .card-text {
+body header .container .cards .cards-card .card-text {
   margin-left: 65px;
 }
 
-body .container header .cards .cards-card .card-text .number {
+body header .container .cards .cards-card .card-text .number {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
   color: #FFB742;
 }
 
-body .container header .cards .cards-card .card-text p {
+body header .container .cards .cards-card .card-text p {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
 }
 
-body .container header .cards .cards-card .card-arrow {
+body header .container .cards .cards-card .card-arrow {
   margin-left: 65px;
 }
 
-body .container header .cards .shadow {
+body header .container .cards .shadow {
   -webkit-box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
 }
 
-body .container .about_me {
+body .about-me-section {
+  margin-top: 135px;
+}
+
+body .about-me-section .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body .about-me-section .container .about_me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 135px;
 }
 
-body .container .about_me .about_me-photo {
+body .about-me-section .container .about_me .about_me-photo {
   width: 620px;
   height: 596.07px;
 }
 
-body .container .about_me .about_me-text {
+body .about-me-section .container .about_me .about_me-text {
   margin-left: 50px;
 }
 
-body .container .about_me .about_me-text h3 {
+body .about-me-section .container .about_me .about_me-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -198,7 +205,7 @@ body .container .about_me .about_me-text h3 {
   border-radius: 50px;
 }
 
-body .container .about_me .about_me-text h2 {
+body .about-me-section .container .about_me .about_me-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -206,7 +213,7 @@ body .container .about_me .about_me-text h2 {
   margin-top: 16.27px;
 }
 
-body .container .about_me .about_me-text p {
+body .about-me-section .container .about_me .about_me-text p {
   font-size: 16px;
   font-weight: 400;
   color: #D4D4D4;
@@ -215,7 +222,7 @@ body .container .about_me .about_me-text p {
   max-width: 672px;
 }
 
-body .container .about_me .about_me-text .btn {
+body .about-me-section .container .about_me .about_me-text .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -226,8 +233,16 @@ body .container .about_me .about_me-text .btn {
   color: #212529;
 }
 
-body .container .skills {
+body .skills-section {
   margin-top: 142.93px;
+}
+
+body .skills-section .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body .skills-section .container .skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,7 +254,7 @@ body .container .skills {
           justify-content: space-between;
 }
 
-body .container .skills .skills-text h3 {
+body .skills-section .container .skills .skills-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -251,7 +266,7 @@ body .container .skills .skills-text h3 {
   border-radius: 50px;
 }
 
-body .container .skills .skills-text h2 {
+body .skills-section .container .skills .skills-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -260,7 +275,7 @@ body .container .skills .skills-text h2 {
   max-width: 520px;
 }
 
-body .container .skills .skills-text p {
+body .skills-section .container .skills .skills-text p {
   font-size: 16px;
   font-weight: 400;
   color: #D4D4D4;
@@ -269,7 +284,7 @@ body .container .skills .skills-text p {
   max-width: 650px;
 }
 
-body .container .skills .skills-text .btn {
+body .skills-section .container .skills .skills-text .btn {
   background-color: #FFB742;
   padding: 12px 26px;
   color: #212529;
@@ -280,7 +295,7 @@ body .container .skills .skills-text .btn {
   color: #212529;
 }
 
-body .container .skills .skills-icons {
+body .skills-section .container .skills .skills-icons {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 80px 80px 80px 80px 80px 80px;
@@ -290,7 +305,7 @@ body .container .skills .skills-icons {
   row-gap: 16px;
 }
 
-body .container .skills .skills-icons .skills-icons-icon {
+body .skills-section .container .skills .skills-icons .skills-icons-icon {
   background-color: #383e45;
   padding: 16px;
   width: -webkit-fit-content;
@@ -302,20 +317,28 @@ body .container .skills .skills-icons .skills-icons-icon {
   border-radius: 10px;
 }
 
-body .container .skills .skills-icons .figma {
+body .skills-section .container .skills .skills-icons .figma {
   padding: 16px 24px;
 }
 
-body .container .skills .skills-icons .sass {
+body .skills-section .container .skills .skills-icons .sass {
   padding: 22px 16px;
 }
 
-body .container .works {
+body .works-section {
   margin-top: 140px;
+}
+
+body .works-section .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body .works-section .container .works {
   text-align: center;
 }
 
-body .container .works .works-text h3 {
+body .works-section .container .works .works-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -329,7 +352,7 @@ body .container .works .works-text h3 {
   margin: 0 auto;
 }
 
-body .container .works .works-text h2 {
+body .works-section .container .works .works-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -337,11 +360,11 @@ body .container .works .works-text h2 {
   margin-top: 16.27px;
 }
 
-body .container .works nav {
+body .works-section .container .works nav {
   margin-top: 30px;
 }
 
-body .container .works nav ul {
+body .works-section .container .works nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,50 +375,55 @@ body .container .works nav ul {
           justify-content: center;
 }
 
-body .container .works nav ul li {
+body .works-section .container .works nav ul li {
   list-style-type: none;
   row-gap: 25px;
 }
 
-body .container .works nav ul li a {
+body .works-section .container .works nav ul li a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
 }
 
-body .container .works nav ul li .active {
+body .works-section .container .works nav ul li .active {
   background-color: #FFB742;
   color: #212529;
   padding: 5px 20px;
   border-radius: 3px;
 }
 
-body .container .works .works-cards {
+body .works-section .container .works .works-cards {
   margin-top: 50px;
   -webkit-column-count: 3;
           column-count: 3;
 }
 
-body .container .works .works-cards .works-cards-card {
+body .works-section .container .works .works-cards .works-cards-card {
   width: 100%;
   margin-bottom: 30px;
 }
 
-body .container .works .works-cards .works-cards-card:nth-child(2n) {
+body .works-section .container .works .works-cards .works-cards-card:nth-child(2n) {
   margin: 0;
 }
 
-body .container .customer {
+body .customer-section {
   margin-top: 140px;
 }
 
-body .container .customer .customer-text {
+body .customer-section .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body .customer-section .container .customer .customer-text {
   display: block;
   text-align: center;
 }
 
-body .container .customer .customer-text h3 {
+body .customer-section .container .customer .customer-text h3 {
   font-size: 20px;
   font-weight: 600;
   color: #FFB742;
@@ -408,7 +436,7 @@ body .container .customer .customer-text h3 {
   margin: 0 auto;
 }
 
-body .container .customer .customer-text h2 {
+body .customer-section .container .customer .customer-text h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -418,7 +446,7 @@ body .container .customer .customer-text h2 {
   margin-top: 7px;
 }
 
-body .container .customer .customer-cards {
+body .customer-section .container .customer .customer-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,36 +456,36 @@ body .container .customer .customer-cards {
   margin-top: 88px;
 }
 
-body .container .customer .customer-cards .customers-cards-card {
+body .customer-section .container .customer .customer-cards .customers-cards-card {
   background-color: white;
   width: 378.91px;
   border-radius: 7.9px;
   margin-right: 40px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper {
   padding: 50px 52px 48px 33px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars img {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars img {
   margin-right: 9px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars .last {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars .last {
   margin: 0;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text {
   margin-top: 21px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text p {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text p {
   max-width: 295px;
   max-height: 204px;
   font-size: 20px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,28 +495,37 @@ body .container .customer .customer-cards .customers-cards-card .customers-cards
   margin-top: 36px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text {
   font-family: 'Poppins', sans-serif;
   margin-left: 24px;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h3 {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h3 {
   font-size: 20px;
   font-weight: 700;
   color: #000000;
 }
 
-body .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h4 {
+body .customer-section .container .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h4 {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
 }
 
-body .container .customer .customer-cards .customers-cards-card:last-child {
+body .customer-section .container .customer .customer-cards .customers-cards-card:last-child {
   margin: 0;
 }
 
-body .container .project {
+body .project-section {
+  margin-top: 115px;
+}
+
+body .project-section .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body .project-section .container .project {
   background-color: #FFB742;
   width: 1116px;
   height: 174px;
@@ -496,7 +533,7 @@ body .container .project {
   margin: auto;
 }
 
-body .container .project .project-text h2 {
+body .project-section .container .project .project-text h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 35px;
@@ -507,7 +544,7 @@ body .container .project .project-text h2 {
   margin-left: 94px;
 }
 
-body .container .project .project-text1 p {
+body .project-section .container .project .project-text1 p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -520,7 +557,7 @@ body .container .project .project-text1 p {
   text-align: center;
 }
 
-body .container .project .project-text-text a {
+body .project-section .container .project .project-text-text a {
   border: 2px #000000 solid;
   border-radius: 50px;
   padding: 12px 40px;
@@ -535,13 +572,18 @@ body .container .project .project-text-text a {
   text-decoration: none;
 }
 
-body .links {
-  background-color: #1c1c1c;
-  height: 470;
-  width: auto;
+body footer {
+  margin-top: -87px;
+  background: #1c1c1c;
 }
 
-body .links .links-name h2 {
-  font-family: 'Poppins', sans-serif;
+body footer .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body footer .container .links {
+  height: 470;
+  width: auto;
 }
 /*# sourceMappingURL=style.css.map */
