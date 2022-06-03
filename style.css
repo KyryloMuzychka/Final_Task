@@ -385,10 +385,6 @@ body .customer {
   margin-top: 140px;
 }
 
-body .customer .customer-text {
-  text-align: center;
-}
-
 body .customer .customer-text h3 {
   font-size: 20px;
   font-weight: 600;
@@ -412,14 +408,15 @@ body .customer .customer-text h2 {
   margin: 0 auto;
 }
 
-body .customer .designer {
+body .customer .customer-cards .customers-cards-card {
   background-color: white;
   width: 387.91px;
   height: 443.55px;
   border-radius: 7.9px;
+  padding: 50px 33px;
 }
 
-body .customer .designer .customer-stars {
-  margin-left: 33px;
+body .customer .customer-cards .customers-cards-card .customers-cards-card-text p {
+  max-width: 295px;
 }
 /*# sourceMappingURL=style.css.map */

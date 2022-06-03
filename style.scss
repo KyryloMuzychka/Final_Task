@@ -313,8 +313,6 @@ body {
 	.customer {
         margin-top: 140px;
 		.customer-text {
-			text-align: center;
-
 			h3 {
 				@include text(20px, 600, #FFB742);
 				padding: 6px 25px;
@@ -333,16 +331,25 @@ body {
 
 			}
 		}
-
-		.designer {
-			background-color: white;
-			width: 387.91px;
-			height: 443.55px;
-			border-radius: 7.9px;
-
-			.customer-stars {
-				margin-left: 33px;
-			}
-		}
+        .customer-cards {
+            .customers-cards-card {
+                background-color: white;
+                width: 387.91px;
+                height: 443.55px;
+                border-radius: 7.9px;
+                padding: 50px 33px;
+    
+                .customers-cards-card-stars {
+                    
+                    //margin-left: 33px;
+                }
+                .customers-cards-card-text {
+                    p {
+                        max-width: 295px;
+                    }
+                }
+            }
+        }
+		
 	}
 }
