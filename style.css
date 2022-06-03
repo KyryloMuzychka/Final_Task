@@ -413,45 +413,74 @@ body .customer .customer-text h2 {
   margin-top: 7px;
 }
 
+body .customer .customer-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 88px;
+}
+
 body .customer .customer-cards .customers-cards-card {
   background-color: white;
   width: 378.91px;
-  height: 443.55px;
   border-radius: 7.9px;
-  padding: 33px 50px;
+  margin-right: 40px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-stars {
-  margin-left: 33px;
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper {
+  padding: 50px 52px 48px 33px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-text p {
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars img {
+  margin-right: 9px;
+}
+
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-stars .last {
+  margin: 0;
+}
+
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text {
+  margin-top: 21px;
+}
+
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-text p {
   max-width: 295px;
   max-height: 204px;
-  margin-top: 21px;
   font-size: 20px;
 }
 
-body .customer .customer-cards .customers-cards-card .customers-cards-card-avatar {
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 36px;
 }
 
-body .customer .customer-cards .customers-cards-card .customer-text-text {
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text {
   font-family: 'Poppins', sans-serif;
-  margin-left: 128px;
-  margin-bottom: 54.5px;
+  margin-left: 24px;
 }
 
-body .customer .customer-cards .customers-cards-card .customer-text-text h3 {
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h3 {
   font-size: 20px;
   font-weight: 700;
   color: #000000;
 }
 
-body .customer .customer-cards .customers-cards-card .customer-text-text h4 {
+body .customer .customer-cards .customers-cards-card .customers-cards-card-wrapper .customers-cards-card-wrapper-person .customers-cards-card-wrapper-person-text h4 {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
+}
+
+body .customer .customer-cards .customers-cards-card:last-child {
+  margin: 0;
 }
 
 body .project {

@@ -2,433 +2,450 @@
 
 
 @mixin text($font-size, $weight, $color) {
-	font-size: $font-size;
-	font-weight: $weight;
-	color: $color;
+    font-size: $font-size;
+    font-weight: $weight;
+    color: $color;
 }
 
 @mixin btn() {
-	background-color: #FFB742;
-	padding: 12px 26px;
-	color: #212529;
-	text-decoration: none;
-	border-radius: 50px;
-	@include text(18px, 700, #212529);
+    background-color: #FFB742;
+    padding: 12px 26px;
+    color: #212529;
+    text-decoration: none;
+    border-radius: 50px;
+    @include text(18px, 700, #212529);
 }
 
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-	font-family: 'Inter', sans-serif;
-	background: #212529;
-	padding: 20px 50px;
-
-	header {
-		.bar {
-			font-family: 'Poppins', sans-serif;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-
-			.logo {
-				width: 90px;
-				height: 65px;
-			}
-
-			nav {
-				ul {
-					display: flex;
-					list-style: none;
-
-					li {
-						margin-right: 25px;
-
-						a {
-							text-decoration: none;
-							@include text(18px, 600, #fff);
-						}
-
-						.active {
-							color: #FFB742;
-						}
-					}
-
-					.li:last-child {
-						margin: 0;
-					}
-				}
-			}
-
-			.btn {
-				@include btn();
-			}
-		}
-
-		.welcome {
-			margin: 0 auto;
-
-			.welcome-text {
-				text-align: center;
-				margin-top: 100px;
-
-				h2 {
-					@include text(32px, 700, #fff);
-
-					u {
-						color: #FFB742;
-					}
-				}
-
-				h1 {
-					margin-top: 10px;
-					@include text(48px, 700, #fff);
-				}
-
-				p {
-					margin-top: 25px;
-					@include text(24px, 400, #fff);
-				}
-			}
-
-			.welcome-ava {
-				margin-top: 20px;
-
-				img {
-					display: block;
-					margin: 0 auto;
-				}
-			}
-		}
-
-		.cards {
-			display: flex;
-			justify-content: center;
-			margin-top: 130px;
-
-			.cards-card {
-				display: flex;
-				align-items: center;
-				width: auto;
-				background-color: rgba(56, 62, 69, 0.44);
-				padding: 30px;
-				border-radius: 10px;
-				margin-right: 25px;
-
-				.card-icon {
-					width: 64px;
-					height: 64px;
-				}
-
-				.card-text {
-					margin-left: 65px;
-
-					.number {
-						text-align: center;
-						@include text(32px, 700, #FFB742);
-					}
-
-					p {
-						@include text(16px, 700, #fff);
-					}
-				}
-
-				.card-arrow {
-					margin-left: 65px;
-				}
-			}
-
-			.shadow {
-				box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
-			}
-		}
-	}
-
-	.about_me {
-		display: flex;
-		align-items: center;
-		margin-top: 135px;
-
-		.about_me-photo {
-			width: 620px;
-			height: 596.07px;
-		}
-
-		.about_me-text {
-			margin-left: 50px;
-
-			h3 {
-				@include text(20px, 600, #FFB742);
-				padding: 6px 25px;
-				background-color: rgba(56, 62, 69, 0.44);
-				width: fit-content;
-				border-radius: 50px;
-			}
-
-			h2 {
-				font-family: 'Roboto', sans-serif;
-				@include text(48px, 700, #fff);
-				margin-top: 16.27px;
-			}
-
-			p {
-				@include text(16px, 400, #D4D4D4);
-				margin-top: 29.49px;
-				margin-bottom: 54.45px;
-				max-width: 672px;
-			}
-
-			.btn {
-				@include btn();
-			}
-		}
-	}
-
-	.skills {
-		margin-top: 142.93px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-
-		.skills-text {
-			h3 {
-				@include text(20px, 600, #FFB742);
-				padding: 6px 25px;
-				background-color: rgba(56, 62, 69, 0.44);
-				width: fit-content;
-				border-radius: 50px;
-			}
-
-			h2 {
-				font-family: 'Roboto', sans-serif;
-				@include text(48px, 700, #fff);
-				margin-top: 16.27px;
-				max-width: 520px;
-			}
-
-			p {
-				@include text(16px, 400, #D4D4D4);
-				margin-top: 29.49px;
-				margin-bottom: 66.45px;
-				max-width: 650px;
-			}
-
-			.btn {
-				@include btn();
-			}
-
-		}
-
-		.skills-icons {
-			display: grid;
-			grid-template-columns: 80px 80px 80px 80px 80px 80px;
-			column-gap: 16px;
-			row-gap: 16px;
-
-			.skills-icons-icon {
-				background-color: rgba(56, 62, 69, 1);
-				padding: 16px;
-				width: fit-content;
-				height: fit-content;
-				border-radius: 10px;
-			}
-
-			.figma {
-				padding: 16px 24px;
-			}
-
-			.sass {
-				padding: 22px 16px;
-			}
-		}
-
-	}
-
-	.works {
-		margin-top: 140px;
-		text-align: center;
-
-		.works-text {
-			h3 {
-				@include text(20px, 600, #FFB742);
-				padding: 6px 25px;
-				background-color: rgba(56, 62, 69, 0.44);
-				width: fit-content;
-				border-radius: 50px;
-				display: block;
-				margin: 0 auto;
-			}
-
-			h2 {
-				font-family: 'Roboto', sans-serif;
-				@include text(48px, 700, #fff);
-				margin-top: 16.27px;
-			}
-		}
-
-		nav {
-			margin-top: 30px;
-
-			ul {
-				display: flex;
-				column-gap: 25px;
-				justify-content: center;
-
-				li {
-					list-style-type: none;
-					row-gap: 25px;
-
-					a {
-						text-decoration: none;
-						@include text(16px, 600, #fff);
-					}
-
-					.active {
-						background-color: #FFB742;
-						color: rgba(33, 37, 41, 1);
-						padding: 5px 20px;
-						border-radius: 3px;
-					}
-				}
-			}
-		}
-
-		.works-cards {
-			margin-top: 50px;
-			column-count: 3;
-
-			.works-cards-card {
-				width: 100%;
-				margin-bottom: 30px;
-			}
-
-			.works-cards-card:nth-child(2n) {
-				margin: 0;
-			}
-
-		}
-	}
-
-	.customer {
-		margin-top: 140px;
-
-		.customer-text {
-			display: block;
-			text-align: center;
-
-			h3 {
-				@include text(20px, 600, #FFB742);
-				padding: 6px 25px;
-				background-color: rgba(56, 62, 69, 0.44);
-				width: fit-content;
-				border-radius: 50px;
-				margin: 0 auto;
-			}
-
-			h2 {
-				font-family: 'Roboto', sans-serif;
-				@include text(48px, 700, #fff);
-				max-width: 520px;
-				margin: 0 auto;
-				margin-top: 7px;
-			}
-		}
-
-		.customer-cards {
-			.customers-cards-card {
-				background-color: white;
-				width: 378.91px;
-				height: 443.55px;
-				border-radius: 7.9px;
-				padding: 33px 50px;
-
-
-				.customers-cards-card-stars {
-
-					margin-left: 33px;
-				}
-
-				.customers-cards-card-text {
-					p {
-						max-width: 295px;
-						max-height: 204px;
-						margin-top: 21px;
-						font-size: 20px;
-					}
-				}
-
-				.customers-cards-card-avatar {
-					margin-top: 36px;
-				}
-
-				.customer-text-text {
-					font-family: 'Poppins', sans-serif;
-					margin-left: 128px;
-					margin-bottom: 54.5px;
-
-					h3 {
-						@include text(20px, 700, #000000);
-					}
-
-					h4 {
-						@include text(16px, 400, #000000);
-					}
-				}
-			}
-		}
-
-	}
-
-	.project {
-		background-color: #FFB742;
-		width: 1116px;
-		height: 174px;
-		border-radius: 15px;
-		margin: auto;
-
-		.project-text {
-			h2 {
-				font-family: 'Inter', sans-serif;
-				font-style: normal;
-				font-size: 35px;
-				font-weight: 900;
-				line-height: 53px;
-				position: absolute;
-				margin-top: 57px;
-				margin-left: 94px;
-			}
-		}
-
-		.project-text1 {
-			p {
-				font-family: 'Roboto', sans-serif;
-				font-style: normal;
-				font-size: 18px;
-				line-height: 30px;
-				font-weight: 500;
-				width: 359px;
-				position: absolute;
-				margin-left: 417px;
-				margin-top: 57px;
-				text-align: center;
-			}
-		}
-
-		.project-text-text {
-			a {
-				border: 2px #000000 solid;
-				border-radius: 50px;
-				padding: 12px 40px;
-				font-family: 'Roboto', sans-serif;
-				@include text(18px, 500, #212529);
-				line-height: 30px;
-				position: absolute;
-				margin-left: 845px;
-				margin-top: 60px;
-				text-decoration: none;
-			}
-		}
-	}
+    font-family: 'Inter', sans-serif;
+    background: #212529;
+    padding: 20px 50px;
+
+    header {
+        .bar {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                width: 90px;
+                height: 65px;
+            }
+
+            nav {
+                ul {
+                    display: flex;
+                    list-style: none;
+
+                    li {
+                        margin-right: 25px;
+
+                        a {
+                            text-decoration: none;
+                            @include text(18px, 600, #fff);
+                        }
+
+                        .active {
+                            color: #FFB742;
+                        }
+                    }
+
+                    .li:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .btn {
+                @include btn();
+            }
+        }
+
+        .welcome {
+            margin: 0 auto;
+
+            .welcome-text {
+                text-align: center;
+                margin-top: 100px;
+
+                h2 {
+                    @include text(32px, 700, #fff);
+
+                    u {
+                        color: #FFB742;
+                    }
+                }
+
+                h1 {
+                    margin-top: 10px;
+                    @include text(48px, 700, #fff);
+                }
+
+                p {
+                    margin-top: 25px;
+                    @include text(24px, 400, #fff);
+                }
+            }
+
+            .welcome-ava {
+                margin-top: 20px;
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            margin-top: 130px;
+
+            .cards-card {
+                display: flex;
+                align-items: center;
+                width: auto;
+                background-color: rgba(56, 62, 69, 0.44);
+                padding: 30px;
+                border-radius: 10px;
+                margin-right: 25px;
+
+                .card-icon {
+                    width: 64px;
+                    height: 64px;
+                }
+
+                .card-text {
+                    margin-left: 65px;
+
+                    .number {
+                        text-align: center;
+                        @include text(32px, 700, #FFB742);
+                    }
+
+                    p {
+                        @include text(16px, 700, #fff);
+                    }
+                }
+
+                .card-arrow {
+                    margin-left: 65px;
+                }
+            }
+
+            .shadow {
+                box-shadow: 10px 10px 51px 0px rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+
+    .about_me {
+        display: flex;
+        align-items: center;
+        margin-top: 135px;
+
+        .about_me-photo {
+            width: 620px;
+            height: 596.07px;
+        }
+
+        .about_me-text {
+            margin-left: 50px;
+
+            h3 {
+                @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
+            }
+
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                margin-top: 16.27px;
+            }
+
+            p {
+                @include text(16px, 400, #D4D4D4);
+                margin-top: 29.49px;
+                margin-bottom: 54.45px;
+                max-width: 672px;
+            }
+
+            .btn {
+                @include btn();
+            }
+        }
+    }
+
+    .skills {
+        margin-top: 142.93px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .skills-text {
+            h3 {
+                @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
+            }
+
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                margin-top: 16.27px;
+                max-width: 520px;
+            }
+
+            p {
+                @include text(16px, 400, #D4D4D4);
+                margin-top: 29.49px;
+                margin-bottom: 66.45px;
+                max-width: 650px;
+            }
+
+            .btn {
+                @include btn();
+            }
+
+        }
+
+        .skills-icons {
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px 80px 80px;
+            column-gap: 16px;
+            row-gap: 16px;
+
+            .skills-icons-icon {
+                background-color: rgba(56, 62, 69, 1);
+                padding: 16px;
+                width: fit-content;
+                height: fit-content;
+                border-radius: 10px;
+            }
+
+            .figma {
+                padding: 16px 24px;
+            }
+
+            .sass {
+                padding: 22px 16px;
+            }
+        }
+
+    }
+
+    .works {
+        margin-top: 140px;
+        text-align: center;
+
+        .works-text {
+            h3 {
+                @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                margin-top: 16.27px;
+            }
+        }
+
+        nav {
+            margin-top: 30px;
+
+            ul {
+                display: flex;
+                column-gap: 25px;
+                justify-content: center;
+
+                li {
+                    list-style-type: none;
+                    row-gap: 25px;
+
+                    a {
+                        text-decoration: none;
+                        @include text(16px, 600, #fff);
+                    }
+
+                    .active {
+                        background-color: #FFB742;
+                        color: rgba(33, 37, 41, 1);
+                        padding: 5px 20px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+
+        .works-cards {
+            margin-top: 50px;
+            column-count: 3;
+
+            .works-cards-card {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .works-cards-card:nth-child(2n) {
+                margin: 0;
+            }
+
+        }
+    }
+
+    .customer {
+        margin-top: 140px;
+
+        .customer-text {
+            display: block;
+            text-align: center;
+
+            h3 {
+                @include text(20px, 600, #FFB742);
+                padding: 6px 25px;
+                background-color: rgba(56, 62, 69, 0.44);
+                width: fit-content;
+                border-radius: 50px;
+                margin: 0 auto;
+            }
+
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                @include text(48px, 700, #fff);
+                max-width: 520px;
+                margin: 0 auto;
+                margin-top: 7px;
+            }
+        }
+
+        .customer-cards {
+            display: flex;
+            justify-content: center;
+            margin-top: 88px;
+
+            .customers-cards-card {
+                background-color: white;
+                width: 378.91px;
+                border-radius: 7.9px;
+                margin-right: 40px;
+
+                .customers-cards-card-wrapper {
+                    padding: 50px 52px 48px 33px;
+
+                    .customers-cards-card-wrapper-stars {
+                        img {
+                            margin-right: 9px;
+                        }
+
+                        .last {
+                            margin: 0;
+                        }
+                    }
+
+                    .customers-cards-card-wrapper-text {
+                        margin-top: 21px;
+
+                        p {
+                            max-width: 295px;
+                            max-height: 204px;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .customers-cards-card-wrapper-person {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 36px;
+
+                        .customers-cards-card-wrapper-person-text {
+                            font-family: 'Poppins', sans-serif;
+                            margin-left: 24px;
+
+                            h3 {
+                                @include text(20px, 700, #000000);
+                            }
+
+                            h4 {
+                                @include text(16px, 400, #000000);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .customers-cards-card:last-child {
+                margin: 0;
+            }
+        }
+
+    }
+
+    .project {
+        background-color: #FFB742;
+        width: 1116px;
+        height: 174px;
+        border-radius: 15px;
+        margin: auto;
+
+        .project-text {
+            h2 {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-size: 35px;
+                font-weight: 900;
+                line-height: 53px;
+                position: absolute;
+                margin-top: 57px;
+                margin-left: 94px;
+            }
+        }
+
+        .project-text1 {
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 500;
+                width: 359px;
+                position: absolute;
+                margin-left: 417px;
+                margin-top: 57px;
+                text-align: center;
+            }
+        }
+
+        .project-text-text {
+            a {
+                border: 2px #000000 solid;
+                border-radius: 50px;
+                padding: 12px 40px;
+                font-family: 'Roboto', sans-serif;
+                @include text(18px, 500, #212529);
+                line-height: 30px;
+                position: absolute;
+                margin-left: 845px;
+                margin-top: 60px;
+                text-decoration: none;
+            }
+        }
+    }
 }
