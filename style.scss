@@ -641,3 +641,17 @@ body {
 		}
 	}
 }
+
+$breaks: (
+    //xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+);
+
+@media screen and (max-width: map-get($breaks, "xl")) {
+    .container {
+        width: 1000px;
+    }
+}

@@ -733,4 +733,10 @@ body footer .container .wrapper .links .links-news form .links-news-email .links
   border-radius: 100%;
   margin-left: -63px;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
