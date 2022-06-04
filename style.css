@@ -928,12 +928,20 @@ body footer .container .wrapper .links .links-news form .links-news-email .links
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  body .skills-section .container .skills .skills-text h3 {
+    text-align: center;
+  }
   body .skills-section .container .skills .skills-text h2 {
     font-size: 38px;
     font-weight: 700;
     color: #fff;
+    text-align: center;
+    max-width: 450px;
   }
   body .skills-section .container .skills .skills-text p {
+    font-size: 19px;
+    font-weight: 400;
+    color: #D4D4D4;
     max-width: 530px;
     text-align: justify;
   }
@@ -941,34 +949,48 @@ body footer .container .wrapper .links .links-news form .links-news-email .links
     font-size: 25px;
   }
   body .skills-section .container .skills .skills-icons {
-    margin: 20px 0px 0px 0px;
-  }
-  body .skills-section .container .skills .skills-icons .figma {
-    padding: 12px 20px;
-  }
-  body .skills-section .container .skills .skills-icons .sass {
-    padding: 18px 12px;
+    margin: 140px 0px 0px 0px;
   }
   body .works-section .container {
-    width: 710px;
-  }
-  body .works-section .container .works {
-    text-align: center;
+    width: 540px;
   }
   body .works-section .container .works .works-text h2 {
     font-size: 38px;
     font-weight: 700;
     color: #fff;
   }
+  body .works-section .container .works nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .works-section .container .works nav ul li {
+    row-gap: 25px;
+    max-width: 140px;
+    text-align: center;
+  }
+  body .works-section .container .works nav ul li a {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+  }
   body .works-section .container .works .works-cards {
-    -webkit-column-count: 2;
-            column-count: 2;
+    -webkit-column-count: 1;
+            column-count: 1;
   }
   body .works-section .container .works .works-cards .works-cards-card:nth-child(2n) {
     margin-bottom: 30px;
   }
+  body .works-section .container .works .works-cards .works-cards-card:last-child {
+    margin: 0;
+  }
   body .customer-section .container {
-    width: 710px;
+    width: 540px;
   }
   body .project-section .container {
     width: 710px;
