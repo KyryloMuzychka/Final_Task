@@ -137,7 +137,7 @@ body {
                     }
 
                     .card-text {
-                        margin-left: 65px;
+                        margin-left: 30px;
 
                         .number {
                             text-align: center;
@@ -146,11 +146,12 @@ body {
 
                         p {
                             @include text(16px, 700, #fff);
+                            text-align: center;
                         }
                     }
 
                     .card-arrow {
-                        margin-left: 65px;
+                        margin-left: 30px;
                     }
                 }
 
@@ -664,18 +665,6 @@ $breaks: (
         header {
             .container {
                 width: 950px;
-
-                .cards {
-                    .cards-card {
-                        .card-text {
-                            margin-left: 35px;
-                        }
-
-                        .card-arrow {
-                            margin-left: 35px;
-                        }
-                    }
-                }
             }
 
         }
@@ -1291,8 +1280,9 @@ $breaks: (
         footer {
             .container {
                 width: 300px;
+
                 .wrapper {
-                    .links { 
+                    .links {
                         .links-news {
                             form {
                                 .links-news-email {

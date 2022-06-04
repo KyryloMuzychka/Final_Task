@@ -147,7 +147,7 @@ body header .container .cards .cards-card .card-icon {
 }
 
 body header .container .cards .cards-card .card-text {
-  margin-left: 65px;
+  margin-left: 30px;
 }
 
 body header .container .cards .cards-card .card-text .number {
@@ -161,10 +161,11 @@ body header .container .cards .cards-card .card-text p {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 body header .container .cards .cards-card .card-arrow {
-  margin-left: 65px;
+  margin-left: 30px;
 }
 
 body header .container .cards .cards-card:last-child {
@@ -744,12 +745,6 @@ body footer .container .wrapper .links .links-news form .links-news-email .links
 @media screen and (max-width: 1200px) {
   body header .container {
     width: 950px;
-  }
-  body header .container .cards .cards-card .card-text {
-    margin-left: 35px;
-  }
-  body header .container .cards .cards-card .card-arrow {
-    margin-left: 35px;
   }
   body .about-me-section .container {
     width: 950px;
