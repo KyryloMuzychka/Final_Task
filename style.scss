@@ -70,7 +70,7 @@ body {
                             }
                         }
 
-                        .li:last-child {
+                        li:last-child {
                             margin: 0;
                         }
                     }
@@ -657,8 +657,7 @@ body {
 
 $breaks: (
     sm: 576px,
-    md: 768px,
-    lg: 992px,
+    lg: 960px,
     xl: 1200px,
 );
 
@@ -778,47 +777,34 @@ $breaks: (
     body {
         header {
             .container {
-                width: 950px;
+                width: 540px;
+                .bar {
+                    flex-direction: column;
+                    // .logo {
+                    //     width: 90px;
+                    //     height: 65px; 
+                    // }
+                    nav {
+                        ul {
+                            flex-direction: column;
+                            text-align: center;
+                            li {
+                                margin: 10px 0px 0px 0px;
 
-                // .bar {
-                //     font-family: 'Poppins', sans-serif;
-                //     display: flex;
-                //     justify-content: space-between;
-                //     align-items: center;
+                                a {
+                                    @include text(25px, 600, #fff);
+                                }
+                            }
+                            li:last-child {
+                                margin: 10px 0px 20px 0px;
+                            }
+                        }
+                    }
 
-                //     .logo {
-                //         width: 90px;
-                //         height: 65px;
-                //     }
-
-                //     nav {
-                //         ul {
-                //             display: flex;
-                //             list-style: none;
-
-                //             li {
-                //                 margin-right: 25px;
-
-                //                 a {
-                //                     text-decoration: none;
-                //                     @include text(18px, 600, #fff);
-                //                 }
-
-                //                 .active {
-                //                     color: #FFB742;
-                //                 }
-                //             }
-
-                //             .li:last-child {
-                //                 margin: 0;
-                //             }
-                //         }
-                //     }
-
-                //     .btn {
-                //         @include btn();
-                //     }
-                // }
+                    .btn {
+                        font-size: 25px;
+                    }
+                }
 
                 // .welcome {
                 //     margin: 0 auto;
@@ -857,8 +843,8 @@ $breaks: (
                 // }
 
                 .cards {
-                    // display: flex;
-                    // justify-content: center;
+                    flex-direction: column;
+                    justify-content: center;
                     // margin-top: 130px;
 
                     .cards-card {
@@ -869,27 +855,27 @@ $breaks: (
                         // padding: 30px;
                         // border-radius: 10px;
                         // margin-right: 25px;
-
+                        margin: 0px 0px 20px 0px;
+                        justify-content: space-around;
                         // .card-icon {
                         //     width: 64px;
                         //     height: 64px;
                         // }
 
                         .card-text {
-                            margin-left: 35px;
+                            margin: 0;
 
-                            // .number {
-                            //     text-align: center;
-                            //     @include text(32px, 700, #FFB742);
-                            // }
+                            .number {
+                                @include text(37px, 700, #FFB742);
+                            }
 
-                            // p {
-                            //     @include text(16px, 700, #fff);
-                            // }
+                            p {
+                                @include text(20px, 700, #fff);
+                            }
                         }
 
                         .card-arrow {
-                            margin-left: 35px;
+                            margin: 0;
                         }
                     }                  
                 }
@@ -898,68 +884,64 @@ $breaks: (
         }
 
         .about-me-section {
-            //   margin-top: 135px;
-
             .container {
-                width: 950px;
-
+                width: 540px;
                 .about_me {
                     // display: flex;
-                    //  align-items: center;
-
+                   //   align-items: center;
+                   // justify-content: center;
 
                     .about_me-photo {
                         img {
-                            width: 420px;
-                            height: auto;
+                           display: none;
                         }
                     }
 
-                    // .about_me-text {
-                    //     margin-left: 50px;
+                    .about_me-text {
+                        margin: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
 
-                    //     h3 {
-                    //         @include text(20px, 600, #FFB742);
-                    //         padding: 6px 25px;
-                    //         background-color: rgba(56, 62, 69, 0.44);
-                    //         width: fit-content;
-                    //         border-radius: 50px;
-                    //     }
+                        // h3 {
+                        //     @include text(20px, 600, #FFB742);
+                        //     padding: 6px 25px;
+                        //     background-color: rgba(56, 62, 69, 0.44);
+                        //     width: fit-content;
+                        //     border-radius: 50px;
+                        // }
 
-                    //     h2 {
-                    //         font-family: 'Roboto', sans-serif;
-                    //         @include text(48px, 700, #fff);
-                    //         margin-top: 16.27px;
-                    //     }
+                        // h2 {
+                        //     font-family: 'Roboto', sans-serif;
+                        //     @include text(48px, 700, #fff);
+                        //     margin-top: 16.27px;
+                        // }
 
-                    //     p {
-                    //         @include text(16px, 400, #D4D4D4);
-                    //         margin-top: 29.49px;
-                    //         margin-bottom: 54.45px;
-                    //         max-width: 672px;
-                    //     }
+                        p {
+                            @include text(19px, 400, #D4D4D4);
+                            text-align: justify;
+                            // margin-top: 29.49px;
+                            // margin-bottom: 54.45px;
+                            // max-width: 672px;
+                        }
 
-                    //     .btn {
-                    //         @include btn();
-                    //     }
-                    // }
+                        .btn {
+                            font-size: 25px;
+                        }
+                    }
                 }
             }
         }
 
         .skills-section {
-            //margin-top: 142.93px;
-
             .container {
-                width: 950px;
-
+                width: 540px;
                 .skills {
-
-                    //  display: flex;
-                    //   align-items: center;
-                    //   justify-content: space-between;
-
+                    flex-direction: column;
                     .skills-text {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
                         h3 {
                             //   @include text(20px, 600, #FFB742);
                             //  padding: 6px 25px;
@@ -976,29 +958,34 @@ $breaks: (
                         }
 
                         p {
-                            //   @include text(16px, 400, #D4D4D4);
+                             // @include text(16px, 400, #e91212);
                             //  margin-top: 29.49px;
                             //  margin-bottom: 66.45px;
-                            max-width: 550px;
+                            
+                            max-width: 530px;
+                          //  display: flex;
+                            text-align: justify;
+                           
+                          //  justify-content: center;
                         }
 
-                        // .btn {
-                        //     @include btn();
-                        // }
+                        .btn {
+                            font-size: 25px;
+                        }
 
                     }
 
                     .skills-icons {
-                        grid-template-columns: (6, 1fr);
-                        column-gap: 12px;
-                        row-gap: 12px;
-                        margin-left: 70px;
-
+                        // grid-template-columns: (6, 1fr);
+                        // column-gap: 12px;
+                        // row-gap: 12px;
+                        // margin-left: 70px;
+                        margin: 20px 0px 0px 0px;
                         .skills-icons-icon {
 
-                            padding: 12px;
+                            // padding: 12px;
 
-                            border-radius: 10px;
+                            // border-radius: 10px;
                         }
 
                         .figma {
@@ -1018,7 +1005,7 @@ $breaks: (
             // margin-top: 140px;
 
             .container {
-                width: 950px;
+                width: 710px;
 
                 .works {
 
@@ -1093,7 +1080,7 @@ $breaks: (
             // z-index: 1;
 
             .container {
-                width: 950px;
+                width: 710px;
 
                 // .customer {
 
@@ -1209,7 +1196,7 @@ $breaks: (
 
         .project-section {
             .container {
-                width: 950px;
+                width: 710px;
                 //  .project {
                 
                 //     margin: auto;
@@ -1258,7 +1245,7 @@ $breaks: (
             // font-family: 'Work Sans', sans-serif;
     
             .container {
-                width: 950px;
+                width: 710px;
     
                 // .wrapper {
                 //     padding-top: 150px;
@@ -1374,5 +1361,4 @@ $breaks: (
             }
         }
     } 
-
 }
