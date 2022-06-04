@@ -656,7 +656,6 @@ body {
 }
 
 $breaks: (
-    //xs: 0,
     sm: 576px,
     md: 768px,
     lg: 992px,
@@ -664,6 +663,118 @@ $breaks: (
 );
 
 @media screen and (max-width: map-get($breaks, "xl")) {
+    body {
+        header {
+            .container {
+                width: 950px;
+                .cards {
+                    .cards-card {
+                        .card-text {
+                            margin-left: 35px;
+                        }
+
+                        .card-arrow {
+                            margin-left: 35px;
+                        }
+                    }                  
+                }
+            }
+
+        }
+
+        .about-me-section {
+            .container {
+                width: 950px;
+                .about_me {
+                    .about_me-photo {
+                        img {
+                            width: 420px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .skills-section {
+            .container {
+                width: 950px;
+
+                .skills {
+                    .skills-text {
+                        h2 {
+                            @include text(38px, 700, #fff);    
+                        }
+                        p {
+                            max-width: 550px;
+                        }
+                    }
+
+                    .skills-icons {
+                        grid-template-columns: (6, 1fr);
+                        column-gap: 12px;
+                        row-gap: 12px;
+                        margin-left: 70px;
+
+                        .skills-icons-icon {
+                            padding: 12px;
+                            border-radius: 10px;
+                        }
+
+                        .figma {
+                            padding: 12px 20px;
+                        }
+
+                        .sass {
+                            padding: 18px 12px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .works-section {
+            .container {
+                width: 950px;
+                .works {
+                    text-align: center;
+                    .works-text {
+                        h2 {
+                            @include text(38px, 700, #fff);
+                        }
+                    }
+                    .works-cards {
+                        column-count: 2;
+                        .works-cards-card:nth-child(2n) {
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .customer-section {
+            .container {
+                width: 950px;
+            }
+        }
+
+        .project-section {
+            .container {
+                width: 950px;
+            }
+        }
+    
+        footer {
+            .container {
+                width: 950px;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: map-get($breaks, "lg")) {
     body {
         header {
             .container {
@@ -1263,4 +1374,5 @@ $breaks: (
             }
         }
     } 
+
 }

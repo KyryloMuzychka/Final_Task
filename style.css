@@ -817,4 +817,79 @@ body footer .container .wrapper .links .links-news form .links-news-email .links
     width: 950px;
   }
 }
+
+@media screen and (max-width: 992px) {
+  body header .container {
+    width: 950px;
+  }
+  body header .container .cards .cards-card .card-text {
+    margin-left: 35px;
+  }
+  body header .container .cards .cards-card .card-arrow {
+    margin-left: 35px;
+  }
+  body .about-me-section .container {
+    width: 950px;
+  }
+  body .about-me-section .container .about_me .about_me-photo img {
+    width: 420px;
+    height: auto;
+  }
+  body .skills-section .container {
+    width: 950px;
+  }
+  body .skills-section .container .skills .skills-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+  }
+  body .skills-section .container .skills .skills-text p {
+    max-width: 550px;
+  }
+  body .skills-section .container .skills .skills-icons {
+    -ms-grid-columns: 6, 1fr;
+        grid-template-columns: 6, 1fr;
+    -webkit-column-gap: 12px;
+            column-gap: 12px;
+    row-gap: 12px;
+    margin-left: 70px;
+  }
+  body .skills-section .container .skills .skills-icons .skills-icons-icon {
+    padding: 12px;
+    border-radius: 10px;
+  }
+  body .skills-section .container .skills .skills-icons .figma {
+    padding: 12px 20px;
+  }
+  body .skills-section .container .skills .skills-icons .sass {
+    padding: 18px 12px;
+  }
+  body .works-section .container {
+    width: 950px;
+  }
+  body .works-section .container .works {
+    text-align: center;
+  }
+  body .works-section .container .works .works-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+  }
+  body .works-section .container .works .works-cards {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  body .works-section .container .works .works-cards .works-cards-card:nth-child(2n) {
+    margin-bottom: 30px;
+  }
+  body .customer-section .container {
+    width: 950px;
+  }
+  body .project-section .container {
+    width: 950px;
+  }
+  body footer .container {
+    width: 950px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
