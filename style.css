@@ -10,7 +10,7 @@ body {
 }
 
 body header .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
   margin-top: 25px;
 }
@@ -172,7 +172,7 @@ body .about-me-section {
 }
 
 body .about-me-section .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -239,7 +239,7 @@ body .skills-section {
 }
 
 body .skills-section .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -331,7 +331,7 @@ body .works-section {
 }
 
 body .works-section .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -417,7 +417,7 @@ body .customer-section {
 }
 
 body .customer-section .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -553,7 +553,7 @@ body .project-section {
 }
 
 body .project-section .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -605,7 +605,7 @@ body footer {
 }
 
 body footer .container {
-  width: 95%;
+  width: 1400px;
   margin: 0 auto;
 }
 
